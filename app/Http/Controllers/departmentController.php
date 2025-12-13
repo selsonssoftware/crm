@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Department;
 use App\Models\Designation;
 use Illuminate\Support\Facades\DB;
-class TestController extends Controller
+class departmentController extends Controller
 {
   
   public function departments(Request $request){

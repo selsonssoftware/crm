@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserManagementController;
 use App\Http\Controllers\ProjectController;
-use App\Http\Controllers\TestController;
+use App\Http\Controllers\departmentController;
 use App\Http\Controllers\EmployeeDetailsController;
 /*
 |--------------------------------------------------------------------------
@@ -53,13 +53,13 @@ Route::get('/delete_task',[ProjectController::class,'delete_task']);
 
 
 //departments
-Route::get('/departments',[TestController::class,'testing']);
-Route::post('/departmentsstore',[TestController::class,'departmentsstore']);
-Route::post('/departmentssave', [TestController::class,'departmentssave']);
-Route::get('/delete_departments',[TestController::class,'delete_departments']);
+Route::get('/departments',[departmentController::class,'testing']);
+Route::post('/departmentsstore',[departmentController::class,'departmentsstore']);
+Route::post('/departmentssave', [departmentController::class,'departmentssave']);
+Route::get('/delete_departments',[departmentController::class,'delete_departments']);
 
 //designations
-Route::get('/designations',[TestController::class,'testing']);
-Route::post('/designationsstore',[TestController::class,'designationsstore']);
-Route::post('/designationssave', [TestController::class,'designationssave']);
-Route::get('/delete_designations',[TestController::class,'delete_designations']);
+Route::get('/designations',[departmentController::class,'testing']);
+Route::post('/designationsstore',[departmentController::class,'designationsstore']);
+Route::post('/designationssave', [departmentController::class,'designationssave']);
+Route::get('/delete_designations',[departmentController::class,'delete_designations']);
