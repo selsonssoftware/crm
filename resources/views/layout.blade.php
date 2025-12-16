@@ -1663,12 +1663,12 @@
 							</a>
 							<ul>
 								<li >
-									<a href="layout-horizontal.html"  class="active">
+									<a href="/contact"  class="active">
 										<span>Contacts</span>
 									</a>
 								</li>
 								<li>
-									<a href="layout-detached.html">
+									<a href="/company">
 										<span>Companies</span>
 									</a>
 								</li>
