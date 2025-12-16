@@ -65,7 +65,6 @@ Route::post('/designationsstore',[departmentController::class,'designationsstore
 Route::post('/designationssave', [departmentController::class,'designationssave']);
 Route::get('/delete_designations',[departmentController::class,'delete_designations']);
 
-<<<<<<< HEAD
 
 //Tickets
 Route::get('/show_tickets',[TicketController::class,'show_tickets'])->name('tickets.index');;
@@ -78,7 +77,7 @@ Route::get('/ticket_details/{ticket_id}', [TicketController::class, 'ticket_deta
 
 Route::post('/ticket_update/{ticket_id}', [TicketController::class, 'db_tickect'])
     ->name('ticket.update');
-=======
+
 //Contacts
 Route::get('/contact', [CrmController::class, 'index']);
 Route::post('/storecontact', [CrmController::class, 'store']);
@@ -91,4 +90,4 @@ Route::post('/addcompany', [CrmController::class, 'company']);
 Route::put('/companies/{id}', [CrmController::class, 'updated'])->name('company.updated');
 Route::get('/deletecompany/{id}', [CrmController::class, 'delete'])->name('company.delete');
 Route::get('/company', [CrmController::class, 'companies'])->name('companies.companyindex');
->>>>>>> 6f2fe69286feb69d8d946d9359be363e5c490d02
+
