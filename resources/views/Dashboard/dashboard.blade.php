@@ -93,7 +93,7 @@
 							</span>
 							<h6 class="fs-13 fw-medium text-default mb-1">Attendance Overview</h6>
 							<h3 class="mb-3">120/154 <span class="fs-12 fw-medium text-success"><i
-										class="fa-solid fa-caret-up me-1"></i>+2.1%</span></h3>
+										class="fa-solid fa-caret-up me-1"></i></span></h3>
 							<a href="attendance-employee.html" class="link-default">View Details</a>
 						</div>
 					</div>
