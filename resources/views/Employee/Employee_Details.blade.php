@@ -423,14 +423,14 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="mb-3">
-										<label class="form-label"></label>
-										<input type="text" class="form-control" name="first_name">
+										<label class="form-label">First Name</label>
+										<input type="text" class="form-control" name="first_name" required>
 									</div>	
 								</div>
 								<div class="col-md-6">
 									<div class="mb-3">
 										<label class="form-label">Last Name</label>
-										<input type="text" class="form-control" name="last_name">
+										<input type="text" class="form-control" name="last_name" required>
 									</div>	
 								</div>
 								<div class="col-md-6">
@@ -511,7 +511,7 @@
 
 			</div>
 
-<script>
+<!-- <script>
     @if(session('success'))
         Swal.fire({
             icon: 'success',
@@ -531,7 +531,7 @@
             timer: 1800
         });
     @endif
-</script>
+</script> -->
 <script>
 document.getElementById("logoInput").addEventListener("change", function(event) {
     let img = document.getElementById("previewImage");
@@ -627,5 +627,60 @@ document.addEventListener('shown.bs.modal', function (event) {
 });
 </script>
 
+
+
+ @if(session('success'))
+        <!-- Add position classes -->
+        <div class="position-fixed top-0 end-0 p-3" style="z-index: 9999; max-width: 100%;">
+            <div id="successToast" class="toast colored-toast bg-success-transparent" role="alert" aria-live="assertive"
+                aria-atomic="true" data-bs-autohide="true" data-bs-delay="5000">
+                <div class="toast-header bg-success text-fixed-white">
+                    <strong class="me-auto">Success</strong>
+                    <button type="button" class="btn-close btn-light" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    {{ session('success') }}
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // Simple and direct approach
+            document.addEventListener('DOMContentLoaded', function () {
+                const toastElement = document.getElementById('successToast');
+                if (toastElement) {
+                    const toast = new bootstrap.Toast(toastElement);
+                    toast.show();
+                }
+            });
+        </script>
+    @endif
+
+	@if(session('delete'))
+        <!-- Add position classes -->
+        <div class="position-fixed top-0 end-0 p-3" style="z-index: 9999; max-width: 100%;">
+            <div id="dangerToast" class="toast colored-toast bg-danger-transparent" role="alert" aria-live="assertive"
+                aria-atomic="true" data-bs-autohide="true" data-bs-delay="5000">
+                <div class="toast-header bg-danger text-fixed-white">
+                    <strong class="me-auto">Deleted</strong>
+                    <button type="button" class="btn-close btn-light" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    {{ session('delete') }}
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // Simple and direct approach
+            document.addEventListener('DOMContentLoaded', function () {
+                const toastElement = document.getElementById('dangerToast');
+                if (toastElement) {
+                    const toast = new bootstrap.Toast(toastElement);
+                    toast.show();
+                }
+            });
+        </script>
+    @endif
 
 @endsection
