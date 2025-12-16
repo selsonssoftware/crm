@@ -63,3 +63,16 @@ Route::get('/designations',[departmentController::class,'testing']);
 Route::post('/designationsstore',[departmentController::class,'designationsstore']);
 Route::post('/designationssave', [departmentController::class,'designationssave']);
 Route::get('/delete_designations',[departmentController::class,'delete_designations']);
+
+
+//Tickets
+Route::get('/show_tickets',[TicketController::class,'show_tickets'])->name('tickets.index');;
+Route::post('/store_tickets',[TicketController::class,'store_tickets']);
+
+
+
+Route::get('/ticket_details/{ticket_id}', [TicketController::class, 'ticket_details'])
+    ->name('ticket.details');
+
+Route::post('/ticket_update/{ticket_id}', [TicketController::class, 'db_tickect'])
+    ->name('ticket.update');
