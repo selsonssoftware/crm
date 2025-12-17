@@ -79,17 +79,20 @@
 
                             <ul class="dropdown-menu dropdown-menu-end p-3">
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('companies.companyindex', ['sort' => 'recent']) }}">
+                                    <a class="dropdown-item"
+                                        href="{{ route('companies.companyindex', ['sort' => 'recent']) }}">
                                         Recently Added
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('companies.companyindex', ['sort' => 'asc']) }}">
+                                    <a class="dropdown-item"
+                                        href="{{ route('companies.companyindex', ['sort' => 'asc']) }}">
                                         Ascending
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('companies.companyindex', ['sort' => 'desc']) }}">
+                                    <a class="dropdown-item"
+                                        href="{{ route('companies.companyindex', ['sort' => 'desc']) }}">
                                         Descending
                                     </a>
                                 </li>
@@ -219,9 +222,9 @@
                                     Information</button>
                             </li>
                             <!-- <li class="nav-item" role="presentation">
-                                                <button class="nav-link" id="address-tab" data-bs-toggle="tab" data-bs-target="#address"
-                                                    type="button" role="tab" aria-selected="false">Address</button>
-                                            </li> -->
+                                                    <button class="nav-link" id="address-tab" data-bs-toggle="tab" data-bs-target="#address"
+                                                        type="button" role="tab" aria-selected="false">Address</button>
+                                                </li> -->
                         </ul>
                     </div>
                     <div class="tab-content" id="myTabContent">
@@ -287,11 +290,11 @@
                                         </div>
                                     </div>
                                     <!-- <div class="col-md-6">
-                                                            <div class="mb-3">
-                                                                <label class="form-label">Address</label>
-                                                                <input type="text" name="address" class="form-control">
-                                                            </div>
-                                                        </div> -->
+                                                                <div class="mb-3">
+                                                                    <label class="form-label">Address</label>
+                                                                    <input type="text" name="address" class="form-control">
+                                                                </div>
+                                                            </div> -->
                                     <div class="col-md-6">
                                         <div class="mb-3 ">
                                             <label class="form-label">Industry <span class="text-danger">*</span></label>
