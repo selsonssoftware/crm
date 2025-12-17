@@ -1,11 +1,17 @@
 <?php
 
+
+
+
+use App\Http\Controllers\CrmController;
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserManagementController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\departmentController;
 use App\Http\Controllers\EmployeeDetailsController;
-use App\Http\Controllers\CrmController;
+
+
 use App\Http\Controllers\TicketController;
 
 /*
@@ -26,6 +32,8 @@ Route::get('/layout', function () {
 Route::get('/', function () {
     return view('Dashboard.dashboard');
 });
+
+
 
 //UserManagementController
  Route::get('/user_details',[UserManagementController::class,'usermanagememnt'])->name('store.user');
@@ -84,14 +92,23 @@ Route::post('/ticket_update/{ticket_id}', [TicketController::class, 'db_tickect'
     ->name('ticket.update');
 
 //Contacts
+
 Route::get('/contact', [CrmController::class, 'index']);
 Route::post('/storecontact', [CrmController::class, 'store']);
 Route::put('/contacts/{id}', [CrmController::class, 'update'])->name('contacts.update');
 Route::get('/deletecontact/{id}', [CrmController::class, 'destroy'])->name('contact.delete');
 
+
+
 //Companies
+
 Route::get('/company',[CrmController::class, 'companies']);
 Route::post('/addcompany', [CrmController::class, 'company']);
 Route::put('/companies/{id}', [CrmController::class, 'updated'])->name('company.updated');
 Route::get('/deletecompany/{id}', [CrmController::class, 'delete'])->name('company.delete');
 Route::get('/company', [CrmController::class, 'companies'])->name('companies.companyindex');
+
+
+
+
+

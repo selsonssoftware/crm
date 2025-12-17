@@ -15700,7 +15700,11 @@ button.swal2-cancel {
 }
 .menu-horizontal .page-wrapper {
   margin: 0;
+<<<<<<< HEAD
+  /* padding-top: 96px; */
+=======
   padding-top: 96px;
+>>>>>>> b742c1820d31cd804ed7e72a950f2cc5981b2e2d
   max-width: 1320px;
   margin: 0 auto;
 }
