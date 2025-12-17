@@ -110,5 +110,15 @@ Route::get('/company', [CrmController::class, 'companies'])->name('companies.com
 
 
 
+//holidays
+Route::get('/holidays',[HolidayController::class,'holidays']);
+Route::post('/holidaysstore',[HolidayController::class,'holidaysstore']);
+Route::post('/holidayssave', [HolidayController::class,'holidayssave']);
+Route::get('/delete_holidays',[HolidayController::class,'delete_holidays']);
 
+//promotions
+Route::get('/promotions',[PromotionController::class,'promotions']);
+Route::post('/promotionsstore',[PromotionController::class,'promotionsstore']);
+Route::post('/promotionssave', [PromotionController::class,'promotionssave']);
+Route::get('/delete_promotions',[PromotionController::class,'delete_promotions']);
 
