@@ -114,9 +114,7 @@
 <body class="menu-horizontal">
 
 
-	<div id="global-loader">
-		<div class="page-loader"></div>
-	</div>
+
 
 	<div id="global-loader">
 		<div class="page-loader"></div>
@@ -3984,82 +3982,81 @@
 									<li><a href="deals-dashboard.html">Deals Dashboard</a></li>
 									<li><a href="leads-dashboard.html">Leads Dashboard</a></li>
 								</ul>
-							</div>
-							<div class="tab-pane fade" id="application">
-								<ul>
-									<li class="menu-title"><span>APPLICATION</span></li>
-									<li><a href="chat.html">Chat</a></li>
-									<li><a href="voice-call.html">Voice Call</a></li>
-									<li><a href="video-call.html">Video Call</a></li>
-									<li><a href="outgoing-call.html">Outgoing Call</a></li>
-									<li><a href="incoming-call.html">Incoming Call</a></li>
-									<li><a href="call-history.html">Call History</a></li>
-									<li><a href="calendar.html">Calendar</a></li>
-									<li><a href="email.html">Email</a></li>
-									<li><a href="todo.html">To Do</a></li>
-									<li><a href="notes.html">Notes</a></li>
-									<li><a href="social-feed.html">Social Feed</a></li>
-									<li><a href="file-manager.html">File Manager</a></li>
-									<li><a href="kanban-view.html">Kanban</a></li>
-									<li><a href="invoices.html">Invoices</a></li>
-								</ul>
-							</div>
-							<div class="tab-pane fade" id="super-admin">
-								<ul>
-									<li class="menu-title"><span>SUPER ADMIN</span></li>
-									<li><a href="dashboard.html">Dashboard</a></li>
-									<li><a href="companies.html">Companies</a></li>
-									<li><a href="subscription.html">Subscriptions</a></li>
-									<li><a href="packages.html">Packages</a></li>
-									<li><a href="domain.html">Domain</a></li>
-									<li><a href="purchase-transaction.html">Purchase Transaction</a></li>
-								</ul>
-							</div>
-							<div class="tab-pane fade  show active" id="layout">
-								<ul>
-									<li class="menu-title"><span>LAYOUT</span></li>
-									<li><a href="layout-horizontal.html"  class="active"><span>Horizontal</span></a></li>
-									<li><a href="layout-detached.html"><span>Detached</span></a></li>
-									<li><a href="layout-modern.html"><span>Modern</span></a></li>
-									<li><a href="layout-two-column.html"><span>Two Column </span></a></li>
-									<li><a href="layout-hovered.html"><span>Hovered</span></a></li>
-									<li><a href="layout-box.html"><span>Boxed</span></a></li>
-									<li><a href="layout-horizontal-single.html"><span>Horizontal Single</span></a></li>
-									<li><a href="layout-horizontal-overlay.html"><span>Horizontal Overlay</span></a></li>
-									<li><a href="layout-horizontal-box.html"><span>Horizontal Box</span></a></li>
-									<li><a href="layout-horizontal-sidemenu.html"><span>Menu Aside</span></a></li>
-									<li><a href="layout-vertical-transparent.html"><span>Transparent</span></a></li>
-									<li><a href="layout-without-header.html"><span>Without Header</span></a></li>
-									<li><a href="layout-rtl.html"><span>RTL</span></a></li>
-									<li><a href="layout-dark.html"><span>Dark</span></a></li>
-								</ul>
-							</div>
-							<div class="tab-pane fade" id="projects">
-								<ul>
-									<li class="menu-title"><span>PROJECTS</span></li>
-									<li><a href="clients-grid.html">Clients</a></li>
-									<li>
-										<a href="javascript:void(0);"><span>Projects</span>
-											<span class="menu-arrow"></span>
+						</div>
+						<div class="tab-pane fade" id="application">
+							<ul>
+								<li class="menu-title"><span>APPLICATION</span></li>
+								<li><a href="chat.html">Chat</a></li>
+								<li><a href="voice-call.html">Voice Call</a></li>
+								<li><a href="video-call.html">Video Call</a></li>
+								<li><a href="outgoing-call.html">Outgoing Call</a></li>
+								<li><a href="incoming-call.html">Incoming Call</a></li>
+								<li><a href="call-history.html">Call History</a></li>
+								<li><a href="calendar.html">Calendar</a></li>
+								<li><a href="email.html">Email</a></li>
+								<li><a href="todo.html">To Do</a></li>
+								<li><a href="notes.html">Notes</a></li>
+								<li><a href="social-feed.html">Social Feed</a></li>
+								<li><a href="file-manager.html">File Manager</a></li>
+								<li><a href="kanban-view.html">Kanban</a></li>
+								<li><a href="invoices.html">Invoices</a></li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="super-admin">
+							<ul>
+								<li class="menu-title"><span>SUPER ADMIN</span></li>
+								<li><a href="dashboard.html">Dashboard</a></li>
+								<li><a href="companies.html">Companies</a></li>
+								<li><a href="subscription.html">Subscriptions</a></li>
+								<li><a href="packages.html">Packages</a></li>
+								<li><a href="domain.html">Domain</a></li>
+								<li><a href="purchase-transaction.html">Purchase Transaction</a></li>
+							</ul>
+						</div>
+						<div class="tab-pane fade  show active" id="layout">
+							<ul>
+								<li class="menu-title"><span>LAYOUT</span></li>
+								<li><a href="layout-horizontal.html" class="active"><span>Horizontal</span></a></li>
+								<li><a href="layout-detached.html"><span>Detached</span></a></li>
+								<li><a href="layout-modern.html"><span>Modern</span></a></li>
+								<li><a href="layout-two-column.html"><span>Two Column </span></a></li>
+								<li><a href="layout-hovered.html"><span>Hovered</span></a></li>
+								<li><a href="layout-box.html"><span>Boxed</span></a></li>
+								<li><a href="layout-horizontal-single.html"><span>Horizontal Single</span></a></li>
+								<li><a href="layout-horizontal-overlay.html"><span>Horizontal Overlay</span></a></li>
+								<li><a href="layout-horizontal-box.html"><span>Horizontal Box</span></a></li>
+								<li><a href="layout-horizontal-sidemenu.html"><span>Menu Aside</span></a></li>
+								<li><a href="layout-vertical-transparent.html"><span>Transparent</span></a></li>
+								<li><a href="layout-without-header.html"><span>Without Header</span></a></li>
+								<li><a href="layout-rtl.html"><span>RTL</span></a></li>
+								<li><a href="layout-dark.html"><span>Dark</span></a></li>
+							</ul>
+						</div>
+						<div class="tab-pane fade" id="projects">
+							<ul>
+								<li class="menu-title"><span>PROJECTS</span></li>
+								<li><a href="clients-grid.html">Clients</a></li>
+								<li>
+									<a href="javascript:void(0);"><span>Projects</span>
+										<span class="menu-arrow"></span>
 
 
-									<li>
-										<a href="/contact" class="active">
+								<li>
+									<a href="/contact" class="active">
 
-									<li>
-										<a href="/contact" class="active">
+								<li>
+									<a href="/contact" class="active">
 
-											<span>Contacts</span>
-
-											
-										</a>
-									</li>
-									<li>
-										<a href="/company">
-											<span>Companies</span>
-										</a>
-									</li>
-								</ul>
+										<span>Contacts</span>
+										>>>>>>> c4f11c40dcaf56ee5775eaf00be629afbedb31b2
+									</a>
+								</li>
+								<li>
+									<a href="/company">
+										<span>Companies</span>
+									</a>
+								</li>
+							</ul>
 							</li>
 							<li class="submenu">
 								<a href="#">
@@ -4107,8 +4104,8 @@
 												<ul>
 													<li><a href="leaves.html">Leaves (Admin)</a></li>
 													<li><a href="leaves-employee.html">Leave (Employee)</a></li>
-													<li><a href="leave-settings.html">Leave Settings</a></li>												
-												</ul>												
+													<li><a href="leave-settings.html">Leave Settings</a></li>
+												</ul>
 											</li>
 											<li><a href="attendance-admin.html">Attendance (Admin)</a></li>
 											<li><a href="attendance-employee.html">Attendance (Employee)</a></li>
@@ -4149,8 +4146,7 @@
 									<li><a href="task-board.html">Employee Details</a></li>
 									<li><a href="/departments">Departments</a></li>
 									<li><a href="/designations">Designations</a></li>
-
-									
+									>>>>>>> c4f11c40dcaf56ee5775eaf00be629afbedb31b2
 								</ul>
 							</li>
 
