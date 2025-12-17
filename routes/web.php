@@ -10,8 +10,8 @@ use App\Http\Controllers\UserManagementController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\departmentController;
 use App\Http\Controllers\EmployeeDetailsController;
-
-
+use App\Http\Controllers\HolidayController;
+use App\Http\Controllers\PromotionController;
 use App\Http\Controllers\TicketController;
 
 /*

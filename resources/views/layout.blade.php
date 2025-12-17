@@ -363,7 +363,7 @@
 														<li><a href="ticket-details.html">Ticket Details</a></li>
 													</ul>
 												</li>
-												<li><a href="holidays.html"><span>Holidays</span></a></li>
+												<li><a href="/holidays"><span>Holidays</span></a></li>
 												<li class="submenu">
 													<a href="javascript:void(0);"><span>Attendance</span>
 														<span class="menu-arrow"></span>
@@ -407,7 +407,7 @@
 														<li><a href="training-type.html">Training Type</a></li>
 													</ul>
 												</li>
-												<li><a href="promotion.html"><span>Promotion</span></a></li>
+												<li><a href="/promotions"><span>Promotion</span></a></li>
 												<li><a href="resignation.html"><span>Resignation</span></a></li>
 												<li><a href="termination.html"><span>Termination</span></a></li>														
 											</ul>
@@ -1433,7 +1433,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="holidays.html">
+									<a href="/holidays">
 										<i class="ti ti-calendar-event"></i><span>Holidays</span>
 									</a>
 								</li>
@@ -1472,7 +1472,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="promotion.html">
+									<a href="/promotions">
 										<i class="ti ti-speakerphone"></i><span>Promotion</span>
 									</a>
 								</li>
@@ -1686,7 +1686,7 @@
 									</ul>
 								</li>
 								<li>
-									<a href="clients-grid.html"><span>Holidays</span>
+									<a href="/holidays"><span>Holidays</span>
 									</a>
 								</li>
 								<li class="submenu">
@@ -1711,7 +1711,7 @@
 										<li><a href="ticket-details.html">Ticket Details</a></li>
 									</ul>
 								</li>
-								<li><a href="holidays.html"><span>Holidays</span></a></li>
+								<li><a href="/holidays"><span>Holidays</span></a></li>
 								<li class="submenu">
 									<a href="javascript:void(0);"><span>Attendance</span>
 										<span class="menu-arrow"></span>
@@ -1741,7 +1741,7 @@
 									</ul>
 								</li>
 								
-								<li><a href="promotion.html"><span>Promotion</span></a></li>
+								<li><a href="/promotions"><span>Promotion</span></a></li>
 								<li><a href="resignation.html"><span>Resignation</span></a></li>
 								<li><a href="termination.html"><span>Termination</span></a></li>														
 							</ul>
@@ -2488,7 +2488,7 @@
 											<li><a href="ticket-details.html">Ticket Details</a></li>
 										</ul>
 									</li>
-									<li><a href="holidays.html"><span>Holidays</span></a></li>
+									<li><a href="/holidays"><span>Holidays</span></a></li>
 									<li class="submenu">
 										<a href="javascript:void(0);"><span>Attendance</span>
 											<span class="menu-arrow"></span>
@@ -2532,7 +2532,7 @@
 											<li><a href="training-type.html">Training Type</a></li>
 										</ul>
 									</li>
-									<li><a href="promotion.html"><span>Promotion</span></a></li>
+									<li><a href="/promotions"><span>Promotion</span></a></li>
 									<li><a href="resignation.html"><span>Resignation</span></a></li>
 									<li><a href="termination.html"><span>Termination</span></a></li>
 								</ul>
@@ -3237,7 +3237,7 @@
 												<li><a href="ticket-details.html">Ticket Details</a></li>
 											</ul>
 										</li>
-										<li><a href="holidays.html"><span>Holidays</span></a></li>
+										<li><a href="/holidays"><span>Holidays</span></a></li>
 										<li class="submenu">
 											<a href="javascript:void(0);"><span>Attendance</span>
 												<span class="menu-arrow"></span>
@@ -3281,7 +3281,7 @@
 												<li><a href="training-type.html">Training Type</a></li>
 											</ul>
 										</li>
-										<li><a href="promotion.html"><span>Promotion</span></a></li>
+										<li><a href="/promotions"><span>Promotion</span></a></li>
 										<li><a href="resignation.html"><span>Resignation</span></a></li>
 										<li><a href="termination.html"><span>Termination</span></a></li>
 									</ul>
