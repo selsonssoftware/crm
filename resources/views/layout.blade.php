@@ -52,25 +52,10 @@
 <!-- Datatable CSS -->
 
 	<link rel="stylesheet" href="assets/css/dataTables.bootstrap5.min.css">
-
-
-
-	<!-- Select2 CSS -->
-
-	<link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
-
-
-
-	<!-- Datetimepicker CSS -->
+<!-- Datetimepicker CSS -->
 
 	<link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
-
-
-
-	<!-- Bootstrap Tagsinput CSS -->
-
-    <link rel="stylesheet" href="assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css">
-	<!-- Main CSS -->
+<!-- Main CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
@@ -4172,7 +4157,27 @@
 
 
 
-	
+	<script>
+    @if(session('success'))
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: "{{ session('success') }}",
+            showConfirmButton: false,
+            timer: 1800
+        });
+    @endif
+
+    @if(session('error'))
+        Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: "{{ session('error') }}",
+            showConfirmButton: false,
+            timer: 1800
+        });
+    @endif
+</script>
 </body>
 
 </html>
