@@ -6852,478 +6852,30 @@
 
 								@yield('content')
 
-								<div class="page-wrapper">
 
 
 
+								<div
+									class="footer d-sm-flex align-items-center justify-content-between border-top bg-white p-3">
 
-									@yield('content')
+									<p class="mb-0">2025 &copy; SmartHR.</p>
+									<p>Designed &amp; Developed By <a href="javascript:void(0);"
+											class="text-primary">Selsons Software
+											Solutions</a></p>
 
 
-
-
-									<div
-										class="footer d-sm-flex align-items-center justify-content-between border-top bg-white p-3">
-
-										<p class="mb-0">2025 &copy; SmartHR.</p>
-										<p>Designed &amp; Developed By <a href="javascript:void(0);"
-												class="text-primary">Selsons Software
-												Solutions</a></p>
-
-										<p class="mb-0">2014 - 2025 &copy; Selsons.</p>
-										<p>Designed &amp; Developed By <a href="javascript:void(0);"
-												class="text-primary">Selsons</a></p>
-
-									</div>
 
 								</div>
-								<!-- /Page Wrapper -->
 
-								<!-- Add Todo -->
-								<div class="modal fade" id="add_todo">
-									<div class="modal-dialog modal-dialog-centered">
-										<div class="modal-content">
-											<div class="modal-header">
-												<h4 class="modal-title">Add New Todo</h4>
-
-												<button type="button" class="btn-close custom-btn-close"
-													data-bs-dismiss="modal" aria-label="Close">
-
-													<button type="button" class="btn-close custom-btn-close"
-														data-bs-dismiss="modal" aria-label="Close">
-
-														<i class="ti ti-x"></i>
-													</button>
-											</div>
-											<form action="index.html">
-												<div class="modal-body">
-													<div class="row">
-														<div class="col-12">
-															<div class="mb-3">
-																<label class="form-label">Todo Title</label>
-																<input type="text" class="form-control">
-															</div>
-														</div>
-														<div class="col-6">
-															<div class="mb-3">
-																<label class="form-label">Tag</label>
-																<select class="select">
-																	<option>Select</option>
-																	<option>Internal</option>
-																	<option>Projects</option>
-																	<option>Meetings</option>
-
-																	<option>Reminder</option>
-
-																	<option>Reminder</option>
-
-																</select>
-															</div>
-														</div>
-														<div class="col-6">
-															<div class="mb-3">
-																<label class="form-label">Priority</label>
-																<select class="select">
-																	<option>Select</option>
-																	<option>Medium</option>
-																	<option>High</option>
-																	<option>Low</option>
-																</select>
-															</div>
-														</div>
-														<div class="col-lg-12">
-															<div class="mb-3">
-																<label class="form-label">Descriptions</label>
-																<div class="summernote"></div>
-															</div>
-														</div>
-														<div class="col-12">
-															<div class="mb-3">
-																<label class="form-label">Add Assignee</label>
-																<select class="select">
-																	<option>Select</option>
-																	<option>Sophie</option>
-																	<option>Cameron</option>
-																	<option>Doris</option>
-																	<option>Rufana</option>
-																</select>
-															</div>
-														</div>
-														<div class="col-12">
-															<div class="mb-0">
-																<label class="form-label">Status</label>
-																<select class="select">
-																	<option>Select</option>
-																	<option>Completed</option>
-																	<option>Pending</option>
-																	<option>Onhold</option>
-																	<option>Inprogress</option>
-																</select>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="modal-footer">
-													<button type="button" class="btn btn-light me-2"
-														data-bs-dismiss="modal">Cancel</button>
-													<button type="submit" class="btn btn-primary">Add New Todo</button>
-												</div>
-											</form>
-										</div>
-									</div>
-								</div>
-								<!-- /Add Todo -->
-
-								<!-- Add Project -->
-								<div class="modal fade" id="add_project" role="dialog">
-									<div class="modal-dialog modal-dialog-centered">
-										<div class="modal-content">
-											<div
-												class="modal-header header-border align-items-center justify-content-between">
-												<div class="d-flex align-items-center">
-													<h5 class="modal-title me-2">Add Project </h5>
-													<p class="text-dark">Project ID : PRO-0004</p>
-												</div>
-
-												<button type="button" class="btn-close custom-btn-close"
-													data-bs-dismiss="modal" aria-label="Close">
-
-													<button type="button" class="btn-close custom-btn-close"
-														data-bs-dismiss="modal" aria-label="Close">
-
-														<i class="ti ti-x"></i>
-													</button>
-											</div>
-											<div class="add-info-fieldset">
-												<div class="add-details-wizard p-3 pb-0">
-													<ul
-														class="progress-bar-wizard d-flex align-items-center border-bottom">
-														<li class="active p-2 pt-0">
-															<h6 class="fw-medium">Basic Information</h6>
-														</li>
-
-														<li class="p-2 pt-0">
-
-														<li class="p-2 pt-0">
-
-															<h6 class="fw-medium">Members</h6>
-														</li>
-													</ul>
-												</div>
-												<fieldset id="first-field-file">
-													<form action="projects.html">
-														<div class="modal-body">
-															<div class="row">
-																<div class="col-md-12">
-
-																	<div
-																		class="d-flex align-items-center flex-wrap row-gap-3 bg-light w-100 rounded p-3 mb-4">
-																		<div
-																			class="d-flex align-items-center justify-content-center avatar avatar-xxl rounded-circle border border-dashed me-2 flex-shrink-0 text-dark frames">
-																			<i
-																				class="ti ti-photo text-gray-2 fs-16"></i>
-																		</div>
-
-																		<div
-																			class="d-flex align-items-center flex-wrap row-gap-3 bg-light w-100 rounded p-3 mb-4">
-																			<div
-																				class="d-flex align-items-center justify-content-center avatar avatar-xxl rounded-circle border border-dashed me-2 flex-shrink-0 text-dark frames">
-																				<i
-																					class="ti ti-photo text-gray-2 fs-16"></i>
-																			</div>
-
-																			<div class="profile-upload">
-																				<div class="mb-2">
-																					<h6 class="mb-1">Upload Project Logo
-																					</h6>
-																					<p class="fs-12">Image should be
-																						below 4 mb</p>
-																				</div>
-																				<div
-																					class="profile-uploader d-flex align-items-center">
-																					<div
-																						class="drag-upload-btn btn btn-sm btn-primary me-2">
-																						Upload
-
-																						<input type="file"
-																							class="form-control image-sign"
-																							multiple="">
-																					</div>
-																					<a href="javascript:void(0);"
-																						class="btn btn-light btn-sm">Cancel</a>
-																				</div>
-
-
-																				<input type="file"
-																					class="form-control image-sign"
-																					multiple="">
-																			</div>
-																			<a href="javascript:void(0);"
-																				class="btn btn-light btn-sm">Cancel</a>
-																		</div>
-
-
-																	</div>
-																</div>
-															</div>
-															<div class="col-md-12">
-																<div class="mb-3">
-																	<label class="form-label">Project Name</label>
-																	<input type="text" class="form-control">
-																</div>
-															</div>
-															<div class="col-md-12">
-																<div class="mb-3">
-																	<label class="form-label">Client</label>
-																	<select class="select">
-																		<option>Select</option>
-																		<option>Anthony Lewis</option>
-																		<option>Brian Villalobos</option>
-																	</select>
-																</div>
-															</div>
-															<div class="col-md-12">
-																<div class="row">
-																	<div class="col-md-6">
-																		<div class="mb-3">
-																			<label class="form-label">Start Date</label>
-																			<div
-																				class="input-icon-end position-relative">
-
-																				<input type="text"
-																					class="form-control datetimepicker"
-																					placeholder="dd/mm/yyyy"
-																					value="02-05-2024">
-
-																				<input type="text"
-																					class="form-control datetimepicker"
-																					placeholder="dd/mm/yyyy"
-																					value="02-05-2024">
-
-																				<span class="input-icon-addon">
-																					<i
-																						class="ti ti-calendar text-gray-7"></i>
-																				</span>
-																			</div>
-																		</div>
-																	</div>
-																	<div class="col-md-6">
-																		<div class="mb-3">
-																			<label class="form-label">End Date</label>
-																			<div
-																				class="input-icon-end position-relative">
-
-																				<input type="text"
-																					class="form-control datetimepicker"
-																					placeholder="dd/mm/yyyy"
-																					value="02-05-2024">
-
-																				<input type="text"
-																					class="form-control datetimepicker"
-																					placeholder="dd/mm/yyyy"
-																					value="02-05-2024">
-
-																				<span class="input-icon-addon">
-																					<i
-																						class="ti ti-calendar text-gray-7"></i>
-																				</span>
-																			</div>
-																		</div>
-																	</div>
-																	<div class="col-md-6">
-																		<div class="mb-3">
-																			<label class="form-label">Priority</label>
-																			<select class="select">
-																				<option>Select</option>
-																				<option>High</option>
-																				<option>Medium</option>
-																				<option>Low</option>
-																			</select>
-																		</div>
-																	</div>
-																	<div class="col-md-6">
-																		<div class="mb-3">
-																			<label class="form-label">Project
-																				Value</label>
-																			<input type="text" class="form-control"
-																				value="$">
-																		</div>
-																	</div>
-																	<div class="col-md-6">
-																		<div class="mb-3">
-																			<label class="form-label">Total Working
-																				Hours</label>
-																			<div
-																				class="input-icon-end position-relative">
-
-																				<input type="text"
-																					class="form-control timepicker"
-																					placeholder="-- : -- : --"
-																					value="02-05-2024">
-
-																				<input type="text"
-																					class="form-control timepicker"
-																					placeholder="-- : -- : --"
-																					value="02-05-2024">
-
-																				<span class="input-icon-addon">
-																					<i
-																						class="ti ti-clock-hour-3 text-gray-7"></i>
-																				</span>
-																			</div>
-																		</div>
-																	</div>
-																	<div class="col-md-6">
-																		<div class="mb-3">
-																			<label class="form-label">Extra Time</label>
-																			<input type="text" class="form-control">
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div class="col-md-12">
-																<div class="mb-0">
-																	<label class="form-label">Description</label>
-																	<div class="summernote"></div>
-																</div>
-															</div>
-
-														</div>
-											</div>
-											<div class="modal-footer">
-												<div class="d-flex align-items-center justify-content-end">
-													<button type="button" class="btn btn-outline-light border me-2"
-														data-bs-dismiss="modal">Cancel</button>
-													<button class="btn btn-primary wizard-next-btn" type="button">Add
-														Team
-														Member</button>
-
-												</div>
-											</div>
-											<div class="modal-footer">
-												<div class="d-flex align-items-center justify-content-end">
-													<button type="button" class="btn btn-outline-light border me-2"
-														data-bs-dismiss="modal">Cancel</button>
-													<button class="btn btn-primary wizard-next-btn" type="button">Add
-														Team Member</button>
-
-												</div>
-											</div>
-											</form>
-											</fieldset>
-											<fieldset>
-												<form action="projects.html">
-													<div class="modal-body">
-														<div class="row">
-															<div class="col-md-12">
-																<div class="mb-3">
-																	<label class="form-label me-2">Team Members</label>
-
-																	<input class="input-tags form-control"
-																		placeholder="Add new" type="text"
-																		data-role="tagsinput" name="Label"
-																		value="Jerald,Andrew,Philip,Davis">
-
-																	<input class="input-tags form-control"
-																		placeholder="Add new" type="text"
-																		data-role="tagsinput" name="Label"
-																		value="Jerald,Andrew,Philip,Davis">
-
-																</div>
-															</div>
-															<div class="col-md-12">
-																<div class="mb-3">
-																	<label class="form-label me-2">Team Leader</label>
-
-																	<input class="input-tags form-control"
-																		placeholder="Add new" type="text"
-																		data-role="tagsinput" name="Label"
-																		value="Hendry,James">
-
-																	<input class="input-tags form-control"
-																		placeholder="Add new" type="text"
-																		data-role="tagsinput" name="Label"
-																		value="Hendry,James">
-
-																</div>
-															</div>
-															<div class="col-md-12">
-																<div class="mb-3">
-																	<label class="form-label me-2">Project
-																		Manager</label>
-
-																	<input class="input-tags form-control"
-																		placeholder="Add new" type="text"
-																		data-role="tagsinput" name="Label"
-																		value="Dwight">
-
-																	<input class="input-tags form-control"
-																		placeholder="Add new" type="text"
-																		data-role="tagsinput" name="Label"
-																		value="Dwight">
-
-																</div>
-															</div>
-															<div class="col-md-12">
-																<div class="mb-3">
-																	<label class="form-label">Status</label>
-																	<select class="select">
-																		<option>Select</option>
-																		<option>Active</option>
-																		<option>Inactive</option>
-																	</select>
-																</div>
-															</div>
-															<div class="col-md-12">
-																<div>
-																	<label class="form-label">Tags</label>
-																	<select class="select">
-																		<option>Select</option>
-																		<option>High</option>
-																		<option>Low</option>
-																		<option>Medium</option>
-																	</select>
-																</div>
-															</div>
-
-														</div>
-													</div>
-													<div class="modal-footer">
-														<div class="d-flex align-items-center justify-content-end">
-															<button type="button"
-																class="btn btn-outline-light border me-2"
-																data-bs-dismiss="modal">Cancel</button>
-															<button class="btn btn-primary" type="button"
-																data-bs-toggle="modal"
-																data-bs-target="#success_modal">Save</button>
-
-														</div>
-													</div>
-													<div class="modal-footer">
-														<div class="d-flex align-items-center justify-content-end">
-															<button type="button"
-																class="btn btn-outline-light border me-2"
-																data-bs-dismiss="modal">Cancel</button>
-															<button class="btn btn-primary" type="button"
-																data-bs-toggle="modal"
-																data-bs-target="#success_modal">Save</button>
-
-														</div>
-													</div>
-												</form>
-											</fieldset>
-										</div>
-									</div>
-								</div>
 							</div>
-							<!-- /Add Project -->
+							<!-- /Page Wrapper -->
 
-							<!-- Add Leaves -->
-							<div class="modal fade" id="add_leaves">
-								<div class="modal-dialog modal-dialog-centered modal-md">
+							<!-- Add Todo -->
+							<div class="modal fade" id="add_todo">
+								<div class="modal-dialog modal-dialog-centered">
 									<div class="modal-content">
 										<div class="modal-header">
-											<h4 class="modal-title">Add Leave Request</h4>
+											<h4 class="modal-title">Add New Todo</h4>
 
 											<button type="button" class="btn-close custom-btn-close"
 												data-bs-dismiss="modal" aria-label="Close">
@@ -7335,181 +6887,611 @@
 												</button>
 										</div>
 										<form action="index.html">
-											<div class="modal-body pb-0">
+											<div class="modal-body">
 												<div class="row">
-													<div class="col-md-12">
+													<div class="col-12">
 														<div class="mb-3">
-															<label class="form-label">Employee Name</label>
+															<label class="form-label">Todo Title</label>
+															<input type="text" class="form-control">
+														</div>
+													</div>
+													<div class="col-6">
+														<div class="mb-3">
+															<label class="form-label">Tag</label>
 															<select class="select">
 																<option>Select</option>
-																<option>Anthony Lewis</option>
-																<option>Brian Villalobos</option>
-																<option>Harvey Smith</option>
+																<option>Internal</option>
+																<option>Projects</option>
+																<option>Meetings</option>
+
+																<option>Reminder</option>
+
+																<option>Reminder</option>
+
 															</select>
-
-														</div>
-
-													</div>
-
-												</div>
-												<div class="col-md-12">
-													<div class="mb-3">
-														<label class="form-label">Leave Type</label>
-														<select class="select">
-															<option>Select</option>
-															<option>Medical Leave</option>
-															<option>Casual Leave</option>
-															<option>Annual Leave</option>
-														</select>
-
-													</div>
-												</div>
-												<div class="col-md-6">
-													<div class="mb-3">
-														<label class="form-label">From </label>
-														<div class="input-icon-end position-relative">
-															<input type="text" class="form-control datetimepicker"
-																placeholder="dd/mm/yyyy">
-															<span class="input-icon-addon">
-																<i class="ti ti-calendar text-gray-7"></i>
-															</span>
 														</div>
 													</div>
-												</div>
-												<div class="col-md-6">
-													<div class="mb-3">
-														<label class="form-label">To </label>
-														<div class="input-icon-end position-relative">
-															<input type="text" class="form-control datetimepicker"
-																placeholder="dd/mm/yyyy">
-															<span class="input-icon-addon">
-																<i class="ti ti-calendar text-gray-7"></i>
-															</span>
+													<div class="col-6">
+														<div class="mb-3">
+															<label class="form-label">Priority</label>
+															<select class="select">
+																<option>Select</option>
+																<option>Medium</option>
+																<option>High</option>
+																<option>Low</option>
+															</select>
+														</div>
+													</div>
+													<div class="col-lg-12">
+														<div class="mb-3">
+															<label class="form-label">Descriptions</label>
+															<div class="summernote"></div>
+														</div>
+													</div>
+													<div class="col-12">
+														<div class="mb-3">
+															<label class="form-label">Add Assignee</label>
+															<select class="select">
+																<option>Select</option>
+																<option>Sophie</option>
+																<option>Cameron</option>
+																<option>Doris</option>
+																<option>Rufana</option>
+															</select>
+														</div>
+													</div>
+													<div class="col-12">
+														<div class="mb-0">
+															<label class="form-label">Status</label>
+															<select class="select">
+																<option>Select</option>
+																<option>Completed</option>
+																<option>Pending</option>
+																<option>Onhold</option>
+																<option>Inprogress</option>
+															</select>
 														</div>
 													</div>
 												</div>
-
 											</div>
-									</div>
-									<div class="col-md-6">
-										<div class="mb-3">
-											<label class="form-label">From </label>
-											<div class="input-icon-end position-relative">
-												<input type="text" class="form-control datetimepicker"
-													placeholder="dd/mm/yyyy">
-												<span class="input-icon-addon">
-													<i class="ti ti-calendar text-gray-7"></i>
-												</span>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-light me-2"
+													data-bs-dismiss="modal">Cancel</button>
+												<button type="submit" class="btn btn-primary">Add New Todo</button>
 											</div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="mb-3">
-											<label class="form-label">To </label>
-											<div class="input-icon-end position-relative">
-												<input type="text" class="form-control datetimepicker"
-													placeholder="dd/mm/yyyy">
-												<span class="input-icon-addon">
-													<i class="ti ti-calendar text-gray-7"></i>
-												</span>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-md-6">
-										<div class="mb-3">
-											<label class="form-label">No of Days</label>
-											<input type="text" class="form-control" disabled>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="mb-3">
-											<label class="form-label">Remaining Days</label>
-											<input type="text" class="form-control" disabled>
-										</div>
-									</div>
-									<div class="col-md-12">
-										<div class="mb-3">
-											<label class="form-label">Reason</label>
-											<textarea class="form-control" rows="3"></textarea>
-										</div>
+										</form>
 									</div>
 								</div>
 							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-light me-2" data-bs-dismiss="modal">Cancel</button>
-								<button type="submit" class="btn btn-primary">Add Leaves</button>
+							<!-- /Add Todo -->
+
+							<!-- Add Project -->
+							<div class="modal fade" id="add_project" role="dialog">
+								<div class="modal-dialog modal-dialog-centered">
+									<div class="modal-content">
+										<div
+											class="modal-header header-border align-items-center justify-content-between">
+											<div class="d-flex align-items-center">
+												<h5 class="modal-title me-2">Add Project </h5>
+												<p class="text-dark">Project ID : PRO-0004</p>
+											</div>
+
+											<button type="button" class="btn-close custom-btn-close"
+												data-bs-dismiss="modal" aria-label="Close">
+
+												<button type="button" class="btn-close custom-btn-close"
+													data-bs-dismiss="modal" aria-label="Close">
+
+													<i class="ti ti-x"></i>
+												</button>
+										</div>
+										<div class="add-info-fieldset">
+											<div class="add-details-wizard p-3 pb-0">
+												<ul class="progress-bar-wizard d-flex align-items-center border-bottom">
+													<li class="active p-2 pt-0">
+														<h6 class="fw-medium">Basic Information</h6>
+													</li>
+
+													<li class="p-2 pt-0">
+
+													<li class="p-2 pt-0">
+
+														<h6 class="fw-medium">Members</h6>
+													</li>
+												</ul>
+											</div>
+											<fieldset id="first-field-file">
+												<form action="projects.html">
+													<div class="modal-body">
+														<div class="row">
+															<div class="col-md-12">
+
+																<div
+																	class="d-flex align-items-center flex-wrap row-gap-3 bg-light w-100 rounded p-3 mb-4">
+																	<div
+																		class="d-flex align-items-center justify-content-center avatar avatar-xxl rounded-circle border border-dashed me-2 flex-shrink-0 text-dark frames">
+																		<i class="ti ti-photo text-gray-2 fs-16"></i>
+																	</div>
+
+																	<div
+																		class="d-flex align-items-center flex-wrap row-gap-3 bg-light w-100 rounded p-3 mb-4">
+																		<div
+																			class="d-flex align-items-center justify-content-center avatar avatar-xxl rounded-circle border border-dashed me-2 flex-shrink-0 text-dark frames">
+																			<i
+																				class="ti ti-photo text-gray-2 fs-16"></i>
+																		</div>
+
+																		<div class="profile-upload">
+																			<div class="mb-2">
+																				<h6 class="mb-1">Upload Project Logo
+																				</h6>
+																				<p class="fs-12">Image should be
+																					below 4 mb</p>
+																			</div>
+																			<div
+																				class="profile-uploader d-flex align-items-center">
+																				<div
+																					class="drag-upload-btn btn btn-sm btn-primary me-2">
+																					Upload
+
+																					<input type="file"
+																						class="form-control image-sign"
+																						multiple="">
+																				</div>
+																				<a href="javascript:void(0);"
+																					class="btn btn-light btn-sm">Cancel</a>
+																			</div>
+
+
+																			<input type="file"
+																				class="form-control image-sign"
+																				multiple="">
+																		</div>
+																		<a href="javascript:void(0);"
+																			class="btn btn-light btn-sm">Cancel</a>
+																	</div>
+
+
+																</div>
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div class="mb-3">
+																<label class="form-label">Project Name</label>
+																<input type="text" class="form-control">
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div class="mb-3">
+																<label class="form-label">Client</label>
+																<select class="select">
+																	<option>Select</option>
+																	<option>Anthony Lewis</option>
+																	<option>Brian Villalobos</option>
+																</select>
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div class="row">
+																<div class="col-md-6">
+																	<div class="mb-3">
+																		<label class="form-label">Start Date</label>
+																		<div class="input-icon-end position-relative">
+
+																			<input type="text"
+																				class="form-control datetimepicker"
+																				placeholder="dd/mm/yyyy"
+																				value="02-05-2024">
+
+																			<input type="text"
+																				class="form-control datetimepicker"
+																				placeholder="dd/mm/yyyy"
+																				value="02-05-2024">
+
+																			<span class="input-icon-addon">
+																				<i
+																					class="ti ti-calendar text-gray-7"></i>
+																			</span>
+																		</div>
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<div class="mb-3">
+																		<label class="form-label">End Date</label>
+																		<div class="input-icon-end position-relative">
+
+																			<input type="text"
+																				class="form-control datetimepicker"
+																				placeholder="dd/mm/yyyy"
+																				value="02-05-2024">
+
+																			<input type="text"
+																				class="form-control datetimepicker"
+																				placeholder="dd/mm/yyyy"
+																				value="02-05-2024">
+
+																			<span class="input-icon-addon">
+																				<i
+																					class="ti ti-calendar text-gray-7"></i>
+																			</span>
+																		</div>
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<div class="mb-3">
+																		<label class="form-label">Priority</label>
+																		<select class="select">
+																			<option>Select</option>
+																			<option>High</option>
+																			<option>Medium</option>
+																			<option>Low</option>
+																		</select>
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<div class="mb-3">
+																		<label class="form-label">Project
+																			Value</label>
+																		<input type="text" class="form-control"
+																			value="$">
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<div class="mb-3">
+																		<label class="form-label">Total Working
+																			Hours</label>
+																		<div class="input-icon-end position-relative">
+
+																			<input type="text"
+																				class="form-control timepicker"
+																				placeholder="-- : -- : --"
+																				value="02-05-2024">
+
+																			<input type="text"
+																				class="form-control timepicker"
+																				placeholder="-- : -- : --"
+																				value="02-05-2024">
+
+																			<span class="input-icon-addon">
+																				<i
+																					class="ti ti-clock-hour-3 text-gray-7"></i>
+																			</span>
+																		</div>
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<div class="mb-3">
+																		<label class="form-label">Extra Time</label>
+																		<input type="text" class="form-control">
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div class="mb-0">
+																<label class="form-label">Description</label>
+																<div class="summernote"></div>
+															</div>
+														</div>
+
+													</div>
+										</div>
+										<div class="modal-footer">
+											<div class="d-flex align-items-center justify-content-end">
+												<button type="button" class="btn btn-outline-light border me-2"
+													data-bs-dismiss="modal">Cancel</button>
+												<button class="btn btn-primary wizard-next-btn" type="button">Add
+													Team
+													Member</button>
+
+											</div>
+										</div>
+										<div class="modal-footer">
+											<div class="d-flex align-items-center justify-content-end">
+												<button type="button" class="btn btn-outline-light border me-2"
+													data-bs-dismiss="modal">Cancel</button>
+												<button class="btn btn-primary wizard-next-btn" type="button">Add
+													Team Member</button>
+
+											</div>
+										</div>
+										</form>
+										</fieldset>
+										<fieldset>
+											<form action="projects.html">
+												<div class="modal-body">
+													<div class="row">
+														<div class="col-md-12">
+															<div class="mb-3">
+																<label class="form-label me-2">Team Members</label>
+
+																<input class="input-tags form-control"
+																	placeholder="Add new" type="text"
+																	data-role="tagsinput" name="Label"
+																	value="Jerald,Andrew,Philip,Davis">
+
+																<input class="input-tags form-control"
+																	placeholder="Add new" type="text"
+																	data-role="tagsinput" name="Label"
+																	value="Jerald,Andrew,Philip,Davis">
+
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div class="mb-3">
+																<label class="form-label me-2">Team Leader</label>
+
+																<input class="input-tags form-control"
+																	placeholder="Add new" type="text"
+																	data-role="tagsinput" name="Label"
+																	value="Hendry,James">
+
+																<input class="input-tags form-control"
+																	placeholder="Add new" type="text"
+																	data-role="tagsinput" name="Label"
+																	value="Hendry,James">
+
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div class="mb-3">
+																<label class="form-label me-2">Project
+																	Manager</label>
+
+																<input class="input-tags form-control"
+																	placeholder="Add new" type="text"
+																	data-role="tagsinput" name="Label" value="Dwight">
+
+																<input class="input-tags form-control"
+																	placeholder="Add new" type="text"
+																	data-role="tagsinput" name="Label" value="Dwight">
+
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div class="mb-3">
+																<label class="form-label">Status</label>
+																<select class="select">
+																	<option>Select</option>
+																	<option>Active</option>
+																	<option>Inactive</option>
+																</select>
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div>
+																<label class="form-label">Tags</label>
+																<select class="select">
+																	<option>Select</option>
+																	<option>High</option>
+																	<option>Low</option>
+																	<option>Medium</option>
+																</select>
+															</div>
+														</div>
+
+													</div>
+												</div>
+												<div class="modal-footer">
+													<div class="d-flex align-items-center justify-content-end">
+														<button type="button" class="btn btn-outline-light border me-2"
+															data-bs-dismiss="modal">Cancel</button>
+														<button class="btn btn-primary" type="button"
+															data-bs-toggle="modal"
+															data-bs-target="#success_modal">Save</button>
+
+													</div>
+												</div>
+												<div class="modal-footer">
+													<div class="d-flex align-items-center justify-content-end">
+														<button type="button" class="btn btn-outline-light border me-2"
+															data-bs-dismiss="modal">Cancel</button>
+														<button class="btn btn-primary" type="button"
+															data-bs-toggle="modal"
+															data-bs-target="#success_modal">Save</button>
+
+													</div>
+												</div>
+											</form>
+										</fieldset>
+									</div>
+								</div>
 							</div>
-							</form>
 						</div>
+						<!-- /Add Project -->
+
+						<!-- Add Leaves -->
+						<div class="modal fade" id="add_leaves">
+							<div class="modal-dialog modal-dialog-centered modal-md">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h4 class="modal-title">Add Leave Request</h4>
+
+										<button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal"
+											aria-label="Close">
+
+											<button type="button" class="btn-close custom-btn-close"
+												data-bs-dismiss="modal" aria-label="Close">
+
+												<i class="ti ti-x"></i>
+											</button>
+									</div>
+									<form action="index.html">
+										<div class="modal-body pb-0">
+											<div class="row">
+												<div class="col-md-12">
+													<div class="mb-3">
+														<label class="form-label">Employee Name</label>
+														<select class="select">
+															<option>Select</option>
+															<option>Anthony Lewis</option>
+															<option>Brian Villalobos</option>
+															<option>Harvey Smith</option>
+														</select>
+
+													</div>
+
+												</div>
+
+											</div>
+											<div class="col-md-12">
+												<div class="mb-3">
+													<label class="form-label">Leave Type</label>
+													<select class="select">
+														<option>Select</option>
+														<option>Medical Leave</option>
+														<option>Casual Leave</option>
+														<option>Annual Leave</option>
+													</select>
+
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="mb-3">
+													<label class="form-label">From </label>
+													<div class="input-icon-end position-relative">
+														<input type="text" class="form-control datetimepicker"
+															placeholder="dd/mm/yyyy">
+														<span class="input-icon-addon">
+															<i class="ti ti-calendar text-gray-7"></i>
+														</span>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="mb-3">
+													<label class="form-label">To </label>
+													<div class="input-icon-end position-relative">
+														<input type="text" class="form-control datetimepicker"
+															placeholder="dd/mm/yyyy">
+														<span class="input-icon-addon">
+															<i class="ti ti-calendar text-gray-7"></i>
+														</span>
+													</div>
+												</div>
+											</div>
+
+										</div>
+								</div>
+								<div class="col-md-6">
+									<div class="mb-3">
+										<label class="form-label">From </label>
+										<div class="input-icon-end position-relative">
+											<input type="text" class="form-control datetimepicker"
+												placeholder="dd/mm/yyyy">
+											<span class="input-icon-addon">
+												<i class="ti ti-calendar text-gray-7"></i>
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="mb-3">
+										<label class="form-label">To </label>
+										<div class="input-icon-end position-relative">
+											<input type="text" class="form-control datetimepicker"
+												placeholder="dd/mm/yyyy">
+											<span class="input-icon-addon">
+												<i class="ti ti-calendar text-gray-7"></i>
+											</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6">
+									<div class="mb-3">
+										<label class="form-label">No of Days</label>
+										<input type="text" class="form-control" disabled>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="mb-3">
+										<label class="form-label">Remaining Days</label>
+										<input type="text" class="form-control" disabled>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="mb-3">
+										<label class="form-label">Reason</label>
+										<textarea class="form-control" rows="3"></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-light me-2" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn btn-primary">Add Leaves</button>
+						</div>
+						</form>
 					</div>
 				</div>
-				<!-- /Add Leaves -->
-
 			</div>
-			<!-- /Main Wrapper -->
+			<!-- /Add Leaves -->
 
-			<!-- jQuery -->
+		</div>
+		<!-- /Main Wrapper -->
 
-			<script data-cfasync="false" src="assets/email-decode.min.js"></script>
+		<!-- jQuery -->
 
-
-			<script src="assets/js/jquery-3.7.1.min.js"></script>
-
-			<!-- Bootstrap Core JS -->
-			<script src="assets/js/bootstrap.bundle.min.js"></script>
-
-			<!-- Feather Icon JS -->
-			<script src="assets/js/feather.min.js"></script>
-
-			<!-- Slimscroll JS -->
-			<script src="assets/js/jquery.slimscroll.min.js"></script>
-
-			<!-- Chart JS -->
-			<script src="assets/plugins/apexchart/apexcharts.min.js"></script>
-			<script src="assets/plugins/apexchart/chart-data.js"></script>
-
-			<!-- Chart JS -->
-			<script src="assets/plugins/chartjs/chart.min.js"></script>
-			<script src="assets/plugins/chartjs/chart-data.js"></script>
-
-			<!-- Datetimepicker JS -->
-			<script src="assets/js/moment.min.js"></script>
-			<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
-
-			<!-- Daterangepikcer JS -->
-			<script src="assets/plugins/daterangepicker/daterangepicker.js"></script>
-
-			<!-- Bootstrap Tagsinput JS -->
-			<script src="assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
-
-			<!-- Summernote JS -->
-			<script src="assets/plugins/summernote/summernote-lite.min.js"></script>
-
-			<!-- Select2 JS -->
-			<script src="assets/plugins/select2/js/select2.min.js"></script>
-
-			<!-- Color Picker JS -->
-			<script src="assets/plugins/@simonwep/pickr/pickr.es5.min.js"></script>
+		<script data-cfasync="false" src="assets/email-decode.min.js"></script>
 
 
+		<script src="assets/js/jquery-3.7.1.min.js"></script>
 
-			<script src="assets/js/jquery.dataTables.min.js"></script>
+		<!-- Bootstrap Core JS -->
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
 
-			<script src="assets/js/dataTables.bootstrap5.min.js"></script>
+		<!-- Feather Icon JS -->
+		<script src="assets/js/feather.min.js"></script>
+
+		<!-- Slimscroll JS -->
+		<script src="assets/js/jquery.slimscroll.min.js"></script>
+
+		<!-- Chart JS -->
+		<script src="assets/plugins/apexchart/apexcharts.min.js"></script>
+		<script src="assets/plugins/apexchart/chart-data.js"></script>
+
+		<!-- Chart JS -->
+		<script src="assets/plugins/chartjs/chart.min.js"></script>
+		<script src="assets/plugins/chartjs/chart-data.js"></script>
+
+		<!-- Datetimepicker JS -->
+		<script src="assets/js/moment.min.js"></script>
+		<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+
+		<!-- Daterangepikcer JS -->
+		<script src="assets/plugins/daterangepicker/daterangepicker.js"></script>
+
+		<!-- Bootstrap Tagsinput JS -->
+		<script src="assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
+
+		<!-- Summernote JS -->
+		<script src="assets/plugins/summernote/summernote-lite.min.js"></script>
+
+		<!-- Select2 JS -->
+		<script src="assets/plugins/select2/js/select2.min.js"></script>
+
+		<!-- Color Picker JS -->
+		<script src="assets/plugins/@simonwep/pickr/pickr.es5.min.js"></script>
 
 
-			<!-- Custom JS -->
-			<script src="assets/js/todo.js"></script>
-			<script src="assets/js/theme-colorpicker.js"></script>
-			<script src="assets/js/script.js"></script>
+
+		<script src="assets/js/jquery.dataTables.min.js"></script>
+
+		<script src="assets/js/dataTables.bootstrap5.min.js"></script>
 
 
-			@if(app()->environment('production'))
-				<script defer src="https://static.cloudflareinsights.com/beacon.min.js"></script>
-			@endif
+		<!-- Custom JS -->
+		<script src="assets/js/todo.js"></script>
+		<script src="assets/js/theme-colorpicker.js"></script>
+		<script src="assets/js/script.js"></script>
 
-			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+		@if(app()->environment('production'))
+			<script defer src="https://static.cloudflareinsights.com/beacon.min.js"></script>
+		@endif
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 
