@@ -674,4 +674,8 @@ Template Name: Smarthr - Bootstrap Admin Template
 	}
 	if($('#edit_customleave_select').length > 0) {
 		$('#edit_customleave_select').multiselect();
+<<<<<<< HEAD
 	}
+=======
+	}
+>>>>>>> b742c1820d31cd804ed7e72a950f2cc5981b2e2d
