@@ -521,7 +521,7 @@
 														<span class="menu-arrow"></span>
 													</a>
 													<ul>
-														<li><a href="tickets.html">Tickets</a></li>
+														<li><a href="/show_tasks">Tickets</a></li>
 														<li><a href="ticket-details.html">Ticket Details</a></li>
 													</ul>
 												</li>
@@ -2151,7 +2151,7 @@
 										<li class="submenu">
 											<a href="call.html">Tickets<span class="menu-arrow"></span></a>
 											<ul>
-												<li><a href="contacts-grid.html"><span>Tickets</span></a></li>
+												<li><a href="/show_tasks"><span>Tickets</span></a></li>
 												<li><a href="companies-grid.html"><span>Ticket Details</span></a></li>
 											</ul>
 										</li>
@@ -2280,7 +2280,7 @@
 																	<span class="menu-arrow"></span>
 																</a>
 																<ul>
-																	<li><a href="tickets.html">Tickets</a></li>
+																	<li><a href="/show_tasks">Tickets</a></li>
 																	<li><a href="ticket-details.html">Ticket Details</a>
 																	</li>
 																</ul>
@@ -3362,7 +3362,7 @@
 							<li class="submenu">
 								<a href="call.html">Tickets<span class="menu-arrow"></span></a>
 								<ul>
-									<li><a href="contacts-grid.html"><span>Tickets</span></a></li>
+									<li><a href="/show_tasks"><span>Tickets</span></a></li>
 									<li><a href="companies-grid.html"><span>Ticket Details</span></a></li>
 								</ul>
 							</li>
@@ -3396,7 +3396,7 @@
 									<span class="menu-arrow"></span>
 								</a>
 								<ul>
-									<li><a href="tickets.html">Tickets</a></li>
+									<li><a href="/show_tasks">Tickets</a></li>
 									<li><a href="ticket-details.html">Ticket Details</a></li>
 								</ul>
 							</li>
@@ -4348,7 +4348,7 @@
 													<span class="menu-arrow"></span>
 												</a>
 												<ul>
-													<li><a href="tickets.html">Tickets</a></li>
+													<li><a href="/show_tasks">Tickets</a></li>
 													<li><a href="ticket-details.html">Ticket Details</a></li>
 												</ul>
 											</li>
@@ -5384,7 +5384,7 @@
 																		<span class="menu-arrow"></span>
 																	</a>
 																	<ul>
-																		<li><a href="tickets.html">Tickets</a></li>
+																		<li><a href="/show_tasks">Tickets</a></li>
 																		<li><a href="ticket-details.html">Ticket
 																				Details</a></li>
 																	</ul>

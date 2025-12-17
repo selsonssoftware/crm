@@ -3,13 +3,11 @@
 
 use App\Http\Controllers\CrmController;
 use Illuminate\Support\Facades\Route;
-
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserManagementController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\departmentController;
 use App\Http\Controllers\EmployeeDetailsController;
-use App\Http\Controllers\CrmController;
+
 
 
 /*
