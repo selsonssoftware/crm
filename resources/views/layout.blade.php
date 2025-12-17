@@ -6714,11 +6714,10 @@
 			<script src="assets/js/script.js"></script>
 
 
-			<script defer
-				src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
-				integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
-				data-cf-beacon='{"version":"2024.11.0","token":"d05194593ce14c8fa5c20a9737ff5d07","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
-				crossorigin="anonymous"></script>
+			@if(app()->environment('production'))
+				<script defer src="https://static.cloudflareinsights.com/beacon.min.js"></script>
+			@endif
+
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
@@ -6754,27 +6753,37 @@
 
 
 
-	<script>
-		@if(session('success'))
-			Swal.fire({
-				icon: 'success',
+
+	@if(session('success'))
+		Swal.fire({
+			icon: 'success',
 			title: 'Success',
 			text: "{{ session('success') }}",
 			showConfirmButton: false,
 			timer: 1800
-			});
-		@endif
+		});
+	@endif
 
-		@if(session('error'))
-			Swal.fire({
-				icon: 'error',
+	@if(session('error'))
+		Swal.fire({
+			icon: 'error',
 			title: 'Error',
 			text: "{{ session('error') }}",
 			showConfirmButton: false,
 			timer: 1800
-			});
-		@endif
+		});
+	@endif
 </script>
+
+<script>
+	window.addEventListener('load', function () {
+		const preloader = document.getElementById('preloader');
+		if (preloader) {
+			preloader.style.display = 'none';
+		}
+	});
+</script>
+
 </body>
 
 
