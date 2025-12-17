@@ -6,6 +6,7 @@ use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\departmentController;
 use App\Http\Controllers\EmployeeDetailsController;
 use App\Http\Controllers\CrmController;
+use App\Http\Controllers\TicketController;
 
 /*
 |--------------------------------------------------------------------------

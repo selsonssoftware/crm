@@ -355,7 +355,7 @@
                                 <div class="col-md-12">
                                     <div class="mb-3">
                                         <label class="form-label">Title</label>
-                                        <input type="text" class="form-control" placeholder="Enter Title" name="title">
+                                        <input type="text" class="form-control" placeholder="Enter Title" name="title" required>
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Event Category</label>

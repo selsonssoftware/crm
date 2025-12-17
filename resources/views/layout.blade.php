@@ -1696,7 +1696,7 @@
 								<li class="submenu">
 									<a href="call.html">Tickets<span class="menu-arrow"></span></a>
 									<ul>
-										<li><a href="contacts-grid.html"><span>Tickets</span></a></li>
+										<li><a href="/show_tickets"><span>Tickets</span></a></li>
 										<li><a href="companies-grid.html"><span>Ticket Details</span></a></li>
 									</ul>
 								</li>
@@ -2455,7 +2455,7 @@
 								<ul>
 									<li class="menu-title"><span>PROJECTS</span></li>
 									<li><a href="clients-grid.html">Clients</a></li>
-									<li class="submenu">
+									<li>
 										<a href="javascript:void(0);"><span>Projects</span>
 											<span class="menu-arrow"></span>
 										</a>
@@ -2499,7 +2499,7 @@
 											<span class="menu-arrow"></span>
 										</a>
 										<ul>
-											<li><a href="tickets.html">Tickets</a></li>
+											<li><a href="/show_tickets">Tickets</a></li>
 											<li><a href="ticket-details.html">Ticket Details</a></li>
 										</ul>
 									</li>
