@@ -11,7 +11,7 @@
 	<meta name="keywords" content="admin, estimates, bootstrap, business, html5, responsive, Projects">
 	<meta name="author" content="Dreams technologies - Bootstrap Admin Template">
 	<meta name="robots" content="noindex, nofollow">
-	<title>Smarthr Admin Template</title>
+	<title>Selsons Software Solutions</title>
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="assets/img/sel.png">
@@ -244,12 +244,12 @@
 											</a>
 											<ul>
 												<li>
-													<a href="layout-horizontal.html" class="active">
+													<a href="/contact" class="active">
 														<span>Horizontal</span>
 													</a>
 												</li>
 												<li>
-													<a href="layout-detached.html">
+													<a href="/company">
 														<span>Detached</span>
 													</a>
 												</li>
@@ -2989,7 +2989,7 @@
 							<div class="tab-pane fade  show active" id="layout">
 								<ul>
 									<li class="menu-title"><span>LAYOUT</span></li>
-									<li><a href="layout-horizontal.html" class="active"><span>Horizontal</span></a></li>
+									<li><a href="/contact" class="active"><span>Horizontal</span></a></li>
 									<li><a href="layout-detached.html"><span>Detached</span></a></li>
 									<li><a href="layout-modern.html"><span>Modern</span></a></li>
 									<li><a href="layout-two-column.html"><span>Two Column </span></a></li>
@@ -3764,7 +3764,7 @@
 								</div>
 								<div class="tab-pane fade show active" id="menu-layout">
 									<ul class="stack-submenu">
-										<li><a href="layout-horizontal.html" class="active">Horizontal</a></li>
+										<li><a href="/contact" class="active">Horizontal</a></li>
 										<li><a href="layout-detached.html">Detached</a></li>
 										<li><a href="layout-modern.html">Modern</a></li>
 										<li><a href="layout-two-column.html">Two Column</a></li>
