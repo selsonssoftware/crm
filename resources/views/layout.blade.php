@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"  data-layout="horizontal">
+<html lang="en" data-layout="horizontal">
 
 
 <head>
@@ -19,13 +19,13 @@
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	
+
 
 	<!-- Feather CSS -->
 	<link rel="stylesheet" href="assets/plugins/icons/feather/feather.css">
 
 	<!-- Tabler Icon CSS -->
-	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
 
 	<!-- Select2 CSS -->
 	<link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
@@ -49,22 +49,22 @@
 	<!-- Color Picker Css -->
 	<link rel="stylesheet" href="assets/plugins/flatpickr/flatpickr.min.css">
 	<link rel="stylesheet" href="assets/plugins/@simonwep/pickr/themes/nano.min.css">
-<!-- Datatable CSS -->
+	<!-- Datatable CSS -->
 
 	<link rel="stylesheet" href="assets/css/dataTables.bootstrap5.min.css">
-<!-- Datetimepicker CSS -->
+	<!-- Datetimepicker CSS -->
 
 	<link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
-<!-- Main CSS -->
+	<!-- Main CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body class="menu-horizontal">
 
-	 <div id="global-loader">
+	<div id="global-loader">
 		<div class="page-loader"></div>
-	</div> 
+	</div>
 
 	<!-- Main Wrapper -->
 	<div class="main-wrapper">
@@ -117,56 +117,63 @@
 										<div class="card-header">
 											<h4>CRM</h4>
 										</div>
-										<div class="card-body pb-1">		
+										<div class="card-body pb-1">
 											<div class="row">
-												<div class="col-sm-6">							
-													<a href="contacts.html" class="d-flex align-items-center justify-content-between p-2 crm-link mb-3">
+												<div class="col-sm-6">
+													<a href="contacts.html"
+														class="d-flex align-items-center justify-content-between p-2 crm-link mb-3">
 														<span class="d-flex align-items-center me-3">
 															<i class="ti ti-user-shield text-default me-2"></i>Contacts
 														</span>
 														<i class="ti ti-arrow-right"></i>
-													</a>							
-													<a href="deals-grid.html" class="d-flex align-items-center justify-content-between p-2 crm-link mb-3">
+													</a>
+													<a href="deals-grid.html"
+														class="d-flex align-items-center justify-content-between p-2 crm-link mb-3">
 														<span class="d-flex align-items-center me-3">
 															<i class="ti ti-heart-handshake text-default me-2"></i>Deals
 														</span>
 														<i class="ti ti-arrow-right"></i>
-													</a>								
-													<a href="pipeline.html" class="d-flex align-items-center justify-content-between p-2 crm-link mb-3">
+													</a>
+													<a href="pipeline.html"
+														class="d-flex align-items-center justify-content-between p-2 crm-link mb-3">
 														<span class="d-flex align-items-center me-3">
-															<i class="ti ti-timeline-event-text text-default me-2"></i>Pipeline
+															<i
+																class="ti ti-timeline-event-text text-default me-2"></i>Pipeline
 														</span>
 														<i class="ti ti-arrow-right"></i>
-													</a>		
+													</a>
 												</div>
-												<div class="col-sm-6">							
-													<a href="companies-grid.html" class="d-flex align-items-center justify-content-between p-2 crm-link mb-3">
+												<div class="col-sm-6">
+													<a href="companies-grid.html"
+														class="d-flex align-items-center justify-content-between p-2 crm-link mb-3">
 														<span class="d-flex align-items-center me-3">
 															<i class="ti ti-building text-default me-2"></i>Companies
 														</span>
 														<i class="ti ti-arrow-right"></i>
-													</a>								
-													<a href="leads-grid.html" class="d-flex align-items-center justify-content-between p-2 crm-link mb-3">
+													</a>
+													<a href="leads-grid.html"
+														class="d-flex align-items-center justify-content-between p-2 crm-link mb-3">
 														<span class="d-flex align-items-center me-3">
 															<i class="ti ti-user-check text-default me-2"></i>Leads
 														</span>
 														<i class="ti ti-arrow-right"></i>
-													</a>								
-													<a href="activity.html" class="d-flex align-items-center justify-content-between p-2 crm-link mb-3">
+													</a>
+													<a href="activity.html"
+														class="d-flex align-items-center justify-content-between p-2 crm-link mb-3">
 														<span class="d-flex align-items-center me-3">
 															<i class="ti ti-activity text-default me-2"></i>Activities
 														</span>
 														<i class="ti ti-arrow-right"></i>
-													</a>		
+													</a>
 												</div>
-											</div>		
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 							<a href="profile-settings.html" class="btn btn-menubar">
 								<i class="ti ti-settings-cog"></i>
-							</a>	
+							</a>
 						</div>
 
 						<!-- Horizontal Single -->
@@ -204,12 +211,12 @@
 											</ul>
 										</li>
 										<li class="submenu">
-											<a href="#" >
+											<a href="#">
 												<i class="ti ti-layout-grid-add"></i><span>Applications</span>
 												<span class="menu-arrow"></span>
 											</a>
 											<ul>
-												<li><a href="chat.html" >Chat</a></li>
+												<li><a href="chat.html">Chat</a></li>
 												<li class="submenu submenu-two">
 													<a href="call.html">Calls<span
 															class="menu-arrow inside-submenu"></span></a>
@@ -238,7 +245,7 @@
 											</a>
 											<ul>
 												<li>
-													<a href="layout-horizontal.html"  class="active">
+													<a href="layout-horizontal.html" class="active">
 														<span>Horizontal</span>
 													</a>
 												</li>
@@ -327,13 +334,13 @@
 														<li><a href="/show_project">Projects</a></li>
 														<li><a href="/show_tasks">Tasks</a></li>
 													</ul>
-												</li>		
+												</li>
 												<li class="submenu">
-													<a href="call.html">Crm<span
-															class="menu-arrow"></span></a>
+													<a href="call.html">Crm<span class="menu-arrow"></span></a>
 													<ul>
 														<li><a href="contacts-grid.html"><span>Contacts</span></a></li>
-														<li><a href="companies-grid.html"><span>Companies</span></a></li>
+														<li><a href="companies-grid.html"><span>Companies</span></a>
+														</li>
 														<li><a href="deals-grid.html"><span>Deals</span></a></li>
 														<li><a href="leads-grid.html"><span>Leads</span></a></li>
 														<li><a href="pipeline.html"><span>Pipeline</span></a></li>
@@ -374,12 +381,15 @@
 																	class="menu-arrow"></span></a>
 															<ul>
 																<li><a href="leaves.html">Leaves (Admin)</a></li>
-																<li><a href="leaves-employee.html">Leave (Employee)</a></li>
-																<li><a href="leave-settings.html">Leave Settings</a></li>												
-															</ul>												
+																<li><a href="leaves-employee.html">Leave (Employee)</a>
+																</li>
+																<li><a href="leave-settings.html">Leave Settings</a>
+																</li>
+															</ul>
 														</li>
 														<li><a href="attendance-admin.html">Attendance (Admin)</a></li>
-														<li><a href="attendance-employee.html">Attendance (Employee)</a></li>
+														<li><a href="attendance-employee.html">Attendance (Employee)</a>
+														</li>
 														<li><a href="timesheets.html">Timesheets</a></li>
 														<li><a href="schedule-timing.html">Shift & Schedule</a></li>
 														<li><a href="overtime.html">Overtime</a></li>
@@ -390,9 +400,12 @@
 														<span class="menu-arrow"></span>
 													</a>
 													<ul>
-														<li><a href="performance-indicator.html">Performance Indicator</a></li>
-														<li><a href="performance-review.html">Performance Review</a></li>
-														<li><a href="performance-appraisal.html">Performance Appraisal</a></li>
+														<li><a href="performance-indicator.html">Performance
+																Indicator</a></li>
+														<li><a href="performance-review.html">Performance Review</a>
+														</li>
+														<li><a href="performance-appraisal.html">Performance
+																Appraisal</a></li>
 														<li><a href="goal-tracking.html">Goal List</a></li>
 														<li><a href="goal-type.html">Goal Type</a></li>
 													</ul>
@@ -409,7 +422,7 @@
 												</li>
 												<li><a href="/promotions"><span>Promotion</span></a></li>
 												<li><a href="resignation.html"><span>Resignation</span></a></li>
-												<li><a href="termination.html"><span>Termination</span></a></li>														
+												<li><a href="termination.html"><span>Termination</span></a></li>
 											</ul>
 										</li>
 										<li class="submenu">
@@ -476,7 +489,8 @@
 													</a>
 													<ul>
 														<li><a href="/user_details">Users</a></li>
-														<li><a href="roles-permissions.html">Roles & Permissions</a></li>
+														<li><a href="roles-permissions.html">Roles & Permissions</a>
+														</li>
 													</ul>
 												</li>
 												<li class="submenu">
@@ -508,22 +522,31 @@
 															<ul>
 																<li><a href="profile-settings.html">Profile</a></li>
 																<li><a href="security-settings.html">Security</a></li>
-																<li><a href="notification-settings.html">Notifications</a></li>
-																<li><a href="connected-apps.html">Connected Apps</a></li>
+																<li><a
+																		href="notification-settings.html">Notifications</a>
+																</li>
+																<li><a href="connected-apps.html">Connected Apps</a>
+																</li>
 															</ul>
 														</li>
 														<li class="submenu">
 															<a href="javascript:void(0);">Website Settings<span
 																	class="menu-arrow"></span></a>
 															<ul>
-																<li><a href="bussiness-settings.html">Business Settings</a></li>
+																<li><a href="bussiness-settings.html">Business
+																		Settings</a></li>
 																<li><a href="seo-settings.html">SEO Settings</a></li>
-																<li><a href="localization-settings.html">Localization</a></li>
+																<li><a
+																		href="localization-settings.html">Localization</a>
+																</li>
 																<li><a href="prefixes.html">Prefixes</a></li>
 																<li><a href="preferences.html">Preferences</a></li>
-																<li><a href="performance-appraisal.html">Appearance</a></li>
+																<li><a href="performance-appraisal.html">Appearance</a>
+																</li>
 																<li><a href="language.html">Language</a></li>
-																<li><a href="authentication-settings.html">Authentication</a></li>
+																<li><a
+																		href="authentication-settings.html">Authentication</a>
+																</li>
 																<li><a href="ai-settings.html">AI Settings</a></li>
 															</ul>
 														</li>
@@ -531,9 +554,12 @@
 															<a href="javascript:void(0);">App Settings<span
 																	class="menu-arrow"></span></a>
 															<ul>
-																<li><a href="salary-settings.html">Salary Settings</a></li>
-																<li><a href="approval-settings.html">Approval Settings</a></li>
-																<li><a href="invoice-settings.html">Invoice Settings</a></li>
+																<li><a href="salary-settings.html">Salary Settings</a>
+																</li>
+																<li><a href="approval-settings.html">Approval
+																		Settings</a></li>
+																<li><a href="invoice-settings.html">Invoice Settings</a>
+																</li>
 																<li><a href="leave-type.html">Leave Type</a></li>
 																<li><a href="custom-fields.html">Custom Fields</a></li>
 															</ul>
@@ -542,20 +568,24 @@
 															<a href="javascript:void(0);">System Settings<span
 																	class="menu-arrow"></span></a>
 															<ul>
-																<li><a href="email-settings.html">Email Settings</a></li>
-																<li><a href="email-template.html">Email Templates</a></li>
+																<li><a href="email-settings.html">Email Settings</a>
+																</li>
+																<li><a href="email-template.html">Email Templates</a>
+																</li>
 																<li><a href="sms-settings.html">SMS Settings</a></li>
 																<li><a href="sms-template.html">SMS Templates</a></li>
 																<li><a href="otp-settings.html">OTP</a></li>
 																<li><a href="gdpr.html">GDPR Cookies</a></li>
-																<li><a href="maintenance-mode.html">Maintenance Mode</a></li>
+																<li><a href="maintenance-mode.html">Maintenance Mode</a>
+																</li>
 															</ul>
 														</li>
 														<li class="submenu">
 															<a href="javascript:void(0);">Financial Settings<span
 																	class="menu-arrow"></span></a>
 															<ul>
-																<li><a href="payment-gateways.html">Payment Gateways</a></li>
+																<li><a href="payment-gateways.html">Payment Gateways</a>
+																</li>
 																<li><a href="tax-rates.html">Tax Rate</a></li>
 																<li><a href="currencies.html">Currencies</a></li>
 															</ul>
@@ -568,7 +598,8 @@
 																<li><a href="custom-js.html">Custom JS</a></li>
 																<li><a href="cronjob.html">Cronjob</a></li>
 																<li><a href="storage-settings.html">Storage</a></li>
-																<li><a href="ban-ip-address.html">Ban IP Address</a></li>
+																<li><a href="ban-ip-address.html">Ban IP Address</a>
+																</li>
 																<li><a href="backup.html">Backup</a></li>
 																<li><a href="clear-cache.html">Clear Cache</a></li>
 															</ul>
@@ -590,17 +621,22 @@
 												<li><a href="timeline.html"><span>Timeline</span></a></li>
 												<li><a href="pricing.html"><span>Pricing</span></a></li>
 												<li><a href="coming-soon.html"><span>Coming Soon</span></a></li>
-												<li><a href="under-maintenance.html"><span>Under Maintenance</span></a></li>
-												<li><a href="under-construction.html"><span>Under Construction</span></a></li>
+												<li><a href="under-maintenance.html"><span>Under Maintenance</span></a>
+												</li>
+												<li><a href="under-construction.html"><span>Under
+															Construction</span></a></li>
 												<li><a href="api-keys.html"><span>API Keys</span></a></li>
 												<li><a href="privacy-policy.html"><span>Privacy Policy</span></a></li>
-												<li><a href="terms-condition.html"><span>Terms & Conditions</span></a></li>
+												<li><a href="terms-condition.html"><span>Terms & Conditions</span></a>
+												</li>
 												<li class="submenu">
-													<a href="#"><span>Content</span> <span class="menu-arrow"></span></a>
+													<a href="#"><span>Content</span> <span
+															class="menu-arrow"></span></a>
 													<ul>
 														<li><a href="pages.html">Pages</a></li>
 														<li class="submenu">
-															<a href="javascript:void(0);">Blogs<span class="menu-arrow"></span></a>
+															<a href="javascript:void(0);">Blogs<span
+																	class="menu-arrow"></span></a>
 															<ul>
 																<li><a href="blogs.html">All Blogs</a></li>
 																<li><a href="blog-categories.html">Categories</a></li>
@@ -609,7 +645,8 @@
 															</ul>
 														</li>
 														<li class="submenu">
-															<a href="javascript:void(0);">Locations<span class="menu-arrow"></span></a>
+															<a href="javascript:void(0);">Locations<span
+																	class="menu-arrow"></span></a>
 															<ul>
 																<li><a href="countries.html">Countries</a></li>
 																<li><a href="states.html">States</a></li>
@@ -627,7 +664,8 @@
 													</a>
 													<ul>
 														<li class="submenu">
-															<a href="javascript:void(0);" class="">Login<span class="menu-arrow"></span></a>
+															<a href="javascript:void(0);" class="">Login<span
+																	class="menu-arrow"></span></a>
 															<ul>
 																<li><a href="login.html">Cover</a></li>
 																<li><a href="login-2.html">Illustration</a></li>
@@ -635,42 +673,53 @@
 															</ul>
 														</li>
 														<li class="submenu">
-															<a href="javascript:void(0);" class="">Register<span class="menu-arrow"></span></a>
+															<a href="javascript:void(0);" class="">Register<span
+																	class="menu-arrow"></span></a>
 															<ul>
 																<li><a href="register.html">Cover</a></li>
 																<li><a href="register-2.html">Illustration</a></li>
 																<li><a href="register-3.html">Basic</a></li>
 															</ul>
 														</li>
-														<li class="submenu"><a href="javascript:void(0);">Forgot Password<span class="menu-arrow"></span></a>
+														<li class="submenu"><a href="javascript:void(0);">Forgot
+																Password<span class="menu-arrow"></span></a>
 															<ul>
 																<li><a href="forgot-password.html">Cover</a></li>
-																<li><a href="forgot-password-2.html">Illustration</a></li>
+																<li><a href="forgot-password-2.html">Illustration</a>
+																</li>
 																<li><a href="forgot-password-3.html">Basic</a></li>
 															</ul>
 														</li>
 														<li class="submenu">
-															<a href="javascript:void(0);">Reset Password<span class="menu-arrow"></span></a>
+															<a href="javascript:void(0);">Reset Password<span
+																	class="menu-arrow"></span></a>
 															<ul>
 																<li><a href="reset-password.html">Cover</a></li>
-																<li><a href="reset-password-2.html">Illustration</a></li>
+																<li><a href="reset-password-2.html">Illustration</a>
+																</li>
 																<li><a href="reset-password-3.html">Basic</a></li>
 															</ul>
 														</li>
 														<li class="submenu">
-															<a href="javascript:void(0);">Email Verification<span class="menu-arrow"></span></a>
+															<a href="javascript:void(0);">Email Verification<span
+																	class="menu-arrow"></span></a>
 															<ul>
 																<li><a href="email-verification.html">Cover</a></li>
-																<li><a href="email-verification-2.html">Illustration</a></li>
+																<li><a href="email-verification-2.html">Illustration</a>
+																</li>
 																<li><a href="email-verification-3.html">Basic</a></li>
 															</ul>
 														</li>
 														<li class="submenu">
-															<a href="javascript:void(0);">2 Step Verification<span class="menu-arrow"></span></a>
+															<a href="javascript:void(0);">2 Step Verification<span
+																	class="menu-arrow"></span></a>
 															<ul>
 																<li><a href="two-step-verification.html">Cover</a></li>
-																<li><a href="two-step-verification-2.html">Illustration</a></li>
-																<li><a href="two-step-verification-3.html">Basic</a></li>
+																<li><a
+																		href="two-step-verification-2.html">Illustration</a>
+																</li>
+																<li><a href="two-step-verification-3.html">Basic</a>
+																</li>
 															</ul>
 														</li>
 														<li><a href="lock-screen.html">Lock Screen</a></li>
@@ -833,20 +882,25 @@
 															</a>
 															<ul>
 																<li class="submenu submenu-two">
-																	<a href="javascript:void(0);">Form Elements <span class="menu-arrow inside-submenu"></span>
+																	<a href="javascript:void(0);">Form Elements <span
+																			class="menu-arrow inside-submenu"></span>
 																	</a>
 																	<ul>
 																		<li>
-																			<a href="form-basic-inputs.html">Basic Inputs</a>
+																			<a href="form-basic-inputs.html">Basic
+																				Inputs</a>
 																		</li>
 																		<li>
-																			<a href="form-checkbox-radios.html">Checkbox & Radios</a>
+																			<a href="form-checkbox-radios.html">Checkbox
+																				& Radios</a>
 																		</li>
 																		<li>
-																			<a href="form-input-groups.html">Input Groups</a>
+																			<a href="form-input-groups.html">Input
+																				Groups</a>
 																		</li>
 																		<li>
-																			<a href="form-grid-gutters.html">Grid & Gutters</a>
+																			<a href="form-grid-gutters.html">Grid &
+																				Gutters</a>
 																		</li>
 																		<li>
 																			<a href="form-select.html">Form Select</a>
@@ -855,29 +909,34 @@
 																			<a href="form-mask.html">Input Masks</a>
 																		</li>
 																		<li>
-																			<a href="form-fileupload.html">File Uploads</a>
+																			<a href="form-fileupload.html">File
+																				Uploads</a>
 																		</li>
 																	</ul>
 																</li>
 																<li class="submenu submenu-two">
-																	<a href="javascript:void(0);">Layouts <span class="menu-arrow inside-submenu"></span>
+																	<a href="javascript:void(0);">Layouts <span
+																			class="menu-arrow inside-submenu"></span>
 																	</a>
 																	<ul>
 																		<li>
-																			<a href="form-horizontal.html">Horizontal Form</a>
+																			<a href="form-horizontal.html">Horizontal
+																				Form</a>
 																		</li>
 																		<li>
-																			<a href="form-vertical.html">Vertical Form</a>
+																			<a href="form-vertical.html">Vertical
+																				Form</a>
 																		</li>
 																		<li>
-																			<a href="form-floating-labels.html">Floating Labels</a>
+																			<a href="form-floating-labels.html">Floating
+																				Labels</a>
 																		</li>
 																	</ul>
 																</li>
 																<li>
 																	<a href="form-validation.html">Form Validation</a>
 																</li>
-																
+
 																<li>
 																	<a href="form-select2.html">Select2</a>
 																</li>
@@ -887,7 +946,7 @@
 																<li>
 																	<a href="form-pickers.html">Form Pickers</a>
 																</li>
-																
+
 															</ul>
 														</li>
 														<li class="submenu">
@@ -940,7 +999,8 @@
 															</a>
 															<ul>
 																<li>
-																	<a href="icon-fontawesome.html">Fontawesome Icons</a>
+																	<a href="icon-fontawesome.html">Fontawesome
+																		Icons</a>
 																</li>
 																<li>
 																	<a href="icon-tabler.html">Tabler Icons</a>
@@ -1000,20 +1060,24 @@
 												<li><a href="#">Documentation</a></li>
 												<li><a href="#">Change Log</a></li>
 												<li class="submenu">
-													<a href="javascript:void(0);"><span>Multi Level</span><span class="menu-arrow"></span></a>
+													<a href="javascript:void(0);"><span>Multi Level</span><span
+															class="menu-arrow"></span></a>
 													<ul>
 														<li><a href="javascript:void(0);">Multilevel 1</a></li>
 														<li class="submenu submenu-two">
 															<a href="javascript:void(0);">Multilevel 2<span
 																	class="menu-arrow inside-submenu"></span></a>
 															<ul>
-																<li><a href="javascript:void(0);">Multilevel 2.1</a></li>
+																<li><a href="javascript:void(0);">Multilevel 2.1</a>
+																</li>
 																<li class="submenu submenu-two submenu-three">
 																	<a href="javascript:void(0);">Multilevel 2.2<span
 																			class="menu-arrow inside-submenu inside-submenu-two"></span></a>
 																	<ul>
-																		<li><a href="javascript:void(0);">Multilevel 2.2.1</a></li>
-																		<li><a href="javascript:void(0);">Multilevel 2.2.2</a></li>
+																		<li><a href="javascript:void(0);">Multilevel
+																				2.2.1</a></li>
+																		<li><a href="javascript:void(0);">Multilevel
+																				2.2.2</a></li>
 																	</ul>
 																</li>
 															</ul>
@@ -1044,24 +1108,30 @@
 										<div class="card-header">
 											<h4>Applications</h4>
 										</div>
-										<div class="card-body">											
+										<div class="card-body">
 											<a href="calendar.html" class="d-block pb-2">
-												<span class="avatar avatar-md bg-transparent-dark me-2"><i class="ti ti-calendar text-gray-9"></i></span>Calendar
-											</a>										
+												<span class="avatar avatar-md bg-transparent-dark me-2"><i
+														class="ti ti-calendar text-gray-9"></i></span>Calendar
+											</a>
 											<a href="todo.html" class="d-block py-2">
-												<span class="avatar avatar-md bg-transparent-dark me-2"><i class="ti ti-subtask text-gray-9"></i></span>To Do
-											</a>										
+												<span class="avatar avatar-md bg-transparent-dark me-2"><i
+														class="ti ti-subtask text-gray-9"></i></span>To Do
+											</a>
 											<a href="notes.html" class="d-block py-2">
-												<span class="avatar avatar-md bg-transparent-dark me-2"><i class="ti ti-notes text-gray-9"></i></span>Notes
-											</a>										
+												<span class="avatar avatar-md bg-transparent-dark me-2"><i
+														class="ti ti-notes text-gray-9"></i></span>Notes
+											</a>
 											<a href="file-manager.html" class="d-block py-2">
-												<span class="avatar avatar-md bg-transparent-dark me-2"><i class="ti ti-folder text-gray-9"></i></span>File Manager
-											</a>								
+												<span class="avatar avatar-md bg-transparent-dark me-2"><i
+														class="ti ti-folder text-gray-9"></i></span>File Manager
+											</a>
 											<a href="kanban-view.html" class="d-block py-2">
-												<span class="avatar avatar-md bg-transparent-dark me-2"><i class="ti ti-layout-kanban text-gray-9"></i></span>Kanban
-											</a>								
+												<span class="avatar avatar-md bg-transparent-dark me-2"><i
+														class="ti ti-layout-kanban text-gray-9"></i></span>Kanban
+											</a>
 											<a href="invoices.html" class="d-block py-2 pb-0">
-												<span class="avatar avatar-md bg-transparent-dark me-2"><i class="ti ti-file-invoice text-gray-9"></i></span>Invoices
+												<span class="avatar avatar-md bg-transparent-dark me-2"><i
+														class="ti ti-file-invoice text-gray-9"></i></span>Invoices
 											</a>
 										</div>
 									</div>
@@ -1070,7 +1140,8 @@
 							<div class="me-1">
 								<a href="chat.html" class="btn btn-menubar position-relative">
 									<i class="ti ti-brand-hipchat"></i>
-									<span class="badge bg-info rounded-pill d-flex align-items-center justify-content-center header-badge">5</span>
+									<span
+										class="badge bg-info rounded-pill d-flex align-items-center justify-content-center header-badge">5</span>
 								</a>
 							</div>
 							<div class="me-1">
@@ -1085,7 +1156,8 @@
 									<span class="notification-status-dot"></span>
 								</a>
 								<div class="dropdown-menu dropdown-menu-end notification-dropdown p-4">
-									<div class="d-flex align-items-center justify-content-between border-bottom p-0 pb-3 mb-3">
+									<div
+										class="d-flex align-items-center justify-content-between border-bottom p-0 pb-3 mb-3">
 										<h4 class="notification-title">Notifications (2)</h4>
 										<div class="d-flex align-items-center">
 											<a href="#" class="text-primary fs-15 me-3 lh-1">Mark all as read</a>
@@ -1158,8 +1230,10 @@
 															<img src="assets/img/profiles/avatar-25.jpg" alt="Profile">
 														</span>
 														<div class="flex-grow-1">
-															<p class="mb-1">New student record <span class="text-dark fw-semibold"> George</span> 
-																is created by <span class="text-dark fw-semibold">Teressa</span>
+															<p class="mb-1">New student record <span
+																	class="text-dark fw-semibold"> George</span>
+																is created by <span
+																	class="text-dark fw-semibold">Teressa</span>
 															</p>
 															<span>2 hrs ago</span>
 														</div>
@@ -1173,7 +1247,8 @@
 															<img src="assets/img/profiles/avatar-01.jpg" alt="Profile">
 														</span>
 														<div class="flex-grow-1">
-															<p class="mb-1">A new teacher record for <span class="text-dark fw-semibold">Elisa</span> </p>
+															<p class="mb-1">A new teacher record for <span
+																	class="text-dark fw-semibold">Elisa</span> </p>
 															<span>09:45 AM</span>
 														</div>
 													</div>
@@ -1188,9 +1263,11 @@
 								</div>
 							</div>
 							<div class="dropdown profile-dropdown">
-								<a href="javascript:void(0);" class="dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown">
+								<a href="javascript:void(0);" class="dropdown-toggle d-flex align-items-center"
+									data-bs-toggle="dropdown">
 									<span class="avatar avatar-sm online">
-										<img src="assets/img/profiles/avatar-12.jpg" alt="Img" class="img-fluid rounded-circle">
+										<img src="assets/img/profiles/avatar-12.jpg" alt="Img"
+											class="img-fluid rounded-circle">
 									</span>
 								</a>
 								<div class="dropdown-menu shadow-none">
@@ -1202,7 +1279,11 @@
 												</span>
 												<div>
 													<h5 class="mb-0">Kevin Larry</h5>
-													<p class="fs-12 fw-medium mb-0"><a href="https://smarthr.co.in/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1463756666717a54716c75796478713a777b79">[email&#160;protected]</a></p>
+													<p class="fs-12 fw-medium mb-0"><a
+															href="https://smarthr.co.in/cdn-cgi/l/email-protection"
+															class="__cf_email__"
+															data-cfemail="1463756666717a54716c75796478713a777b79">[email&#160;protected]</a>
+													</p>
 												</div>
 											</div>
 										</div>
@@ -1211,20 +1292,23 @@
 												href="profile.html">
 												<i class="ti ti-user-circle me-1"></i>My Profile
 											</a>
-											<a class="dropdown-item d-inline-flex align-items-center p-0 py-2" href="bussiness-settings.html">
+											<a class="dropdown-item d-inline-flex align-items-center p-0 py-2"
+												href="bussiness-settings.html">
 												<i class="ti ti-settings me-1"></i>Settings
 											</a>
-											
+
 											<a class="dropdown-item d-inline-flex align-items-center p-0 py-2"
 												href="profile-settings.html">
 												<i class="ti ti-circle-arrow-up me-1"></i>My Account
 											</a>
-											<a class="dropdown-item d-inline-flex align-items-center p-0 py-2" href="knowledgebase.html">
+											<a class="dropdown-item d-inline-flex align-items-center p-0 py-2"
+												href="knowledgebase.html">
 												<i class="ti ti-question-mark me-1"></i>Knowledge Base
 											</a>
 										</div>
 										<div class="card-footer py-1">
-											<a class="dropdown-item d-inline-flex align-items-center p-0 py-2" href="login.html"><i class="ti ti-login me-2"></i>Logout</a>
+											<a class="dropdown-item d-inline-flex align-items-center p-0 py-2"
+												href="login.html"><i class="ti ti-login me-2"></i>Logout</a>
 										</div>
 									</div>
 								</div>
@@ -1235,10 +1319,11 @@
 
 				<!-- Mobile Menu -->
 				<div class="dropdown mobile-user-menu">
-					<a href="javascript:void(0);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+					<a href="javascript:void(0);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+						aria-expanded="false">
 						<i class="fa fa-ellipsis-v"></i>
-						
-<!-- <i class="fa-solid fa-ellipsis-vertical"></i> -->
+
+						<!-- <i class="fa-solid fa-ellipsis-vertical"></i> -->
 					</a>
 					<div class="dropdown-menu dropdown-menu-end">
 						<a class="dropdown-item" href="profile.html">My Profile</a>
@@ -1313,7 +1398,8 @@
 					<div class="me-3">
 						<a href="chat.html" class="btn btn-menubar position-relative">
 							<i class="ti ti-brand-hipchat"></i>
-							<span class="badge bg-info rounded-pill d-flex align-items-center justify-content-center header-badge">5</span>
+							<span
+								class="badge bg-info rounded-pill d-flex align-items-center justify-content-center header-badge">5</span>
 						</a>
 					</div>
 					<div class="me-3 notification-item">
@@ -1347,11 +1433,11 @@
 									</ul>
 								</li>
 								<li class="submenu">
-									<a href="javascript:void(0);" >
+									<a href="javascript:void(0);">
 										<i class="ti ti-layout-grid-add"></i><span>Super Admin</span>
 										<span class="menu-arrow"></span>
 									</a>
-									<ul> 
+									<ul>
 										<li><a href="chat.html">Dashboard</a></li>
 									</ul>
 								</li>
@@ -1388,7 +1474,7 @@
 										<li><a href="/show_project">Projects</a></li>
 										<li><a href="/show_tasks">Tasks</a></li>
 									</ul>
-								</li>								
+								</li>
 							</ul>
 						</li>
 						<li class="menu-title"><span>CRM</span></li>
@@ -1404,7 +1490,7 @@
 										<i class="ti ti-building"></i><span>Companies</span>
 									</a>
 								</li>
-							</ul>							
+							</ul>
 						</li>
 						<li class="menu-title"><span>HRM</span></li>
 						<li>
@@ -1449,8 +1535,8 @@
 											<ul>
 												<li><a href="leaves.html">Leaves (Admin)</a></li>
 												<li><a href="leaves-employee.html">Leave (Employee)</a></li>
-												<li><a href="leave-settings.html">Leave Settings</a></li>												
-											</ul>												
+												<li><a href="leave-settings.html">Leave Settings</a></li>
+											</ul>
 										</li>
 										<li><a href="attendance-employee.html">Attendance (Employee)</a></li>
 									</ul>
@@ -1529,7 +1615,7 @@
 									</ul>
 								</li>
 							</ul>
-						</li>						
+						</li>
 						<li class="menu-title"><span>ADMINISTRATION</span></li>
 						<li>
 							<ul>
@@ -1543,7 +1629,7 @@
 										<li><a href="asset-categories.html">Asset Categories</a></li>
 									</ul>
 								</li>
-								
+
 								<li class="submenu">
 									<a href="javascript:void(0);">
 										<i class="ti ti-user-star"></i><span>User Management</span>
@@ -1606,7 +1692,7 @@
 							<span>Main Menu</span>
 						</li>
 						<li class="submenu">
-							<a href="#" >
+							<a href="#">
 								<i class="ti ti-smart-home"></i><span>Dashboard</span>
 								<span class="menu-arrow"></span>
 							</a>
@@ -1616,7 +1702,7 @@
 							</ul>
 						</li>
 						<li class="submenu">
-							<a href="#" >
+							<a href="#">
 								<i class="ti ti-user-star"></i><span>Super Admin</span>
 								<span class="menu-arrow"></span>
 							</a>
@@ -1632,8 +1718,7 @@
 							<ul>
 								<li><a href="chat.html">Clients</a></li>
 								<li class="submenu submenu-two">
-									<a href="call.html">Projects<span
-											class="menu-arrow inside-submenu"></span></a>
+									<a href="call.html">Projects<span class="menu-arrow inside-submenu"></span></a>
 									<ul>
 										<li><a href="/show_project">Projects</a></li>
 										<li><a href="/show_tasks">Tasks</a></li>
@@ -1647,13 +1732,13 @@
 								<span class="menu-arrow"></span>
 							</a>
 							<ul>
-								<li >
-									<a href="layout-horizontal.html"  class="active">
+								<li>
+									<a href="/contact" class="active">
 										<span>Contacts</span>
 									</a>
 								</li>
 								<li>
-									<a href="layout-detached.html">
+									<a href="/company">
 										<span>Companies</span>
 									</a>
 								</li>
@@ -1665,7 +1750,7 @@
 								<span class="menu-arrow"></span>
 							</a>
 							<ul>
-								
+
 								<li class="submenu">
 									<a href="javascript:void(0);"><span>Employees</span>
 										<span class="menu-arrow"></span>
@@ -1675,9 +1760,9 @@
 										<li><a href="tasks.html">Employee Grid</a></li>
 										<li><a href="task-board.html">Employee Details</a></li>
 										<li><a href="/departments">Departments</a></li>
-                        				<li><a href="/designations">Designations</a></li>
+										<li><a href="/designations">Designations</a></li>
 									</ul>
-								</li>		
+								</li>
 								<li class="submenu">
 									<a href="call.html">Tickets<span class="menu-arrow"></span></a>
 									<ul>
@@ -1718,13 +1803,12 @@
 									</a>
 									<ul>
 										<li class="submenu">
-											<a href="javascript:void(0);">Leaves<span
-													class="menu-arrow"></span></a>
+											<a href="javascript:void(0);">Leaves<span class="menu-arrow"></span></a>
 											<ul>
 												<li><a href="leaves.html">Leaves (Admin)</a></li>
 												<li><a href="leaves-employee.html">Leave (Employee)</a></li>
-												<li><a href="leave-settings.html">Leave Settings</a></li>												
-											</ul>												
+												<li><a href="leave-settings.html">Leave Settings</a></li>
+											</ul>
 										</li>
 										<li><a href="attendance-employee.html">Attendance (Employee)</a></li>
 										<li><a href="overtime.html">Overtime</a></li>
@@ -1737,13 +1821,13 @@
 									<ul>
 										<li><a href="performance-indicator.html">Training List</a></li>
 										<li><a href="performance-review.html">Training Type</a></li>
-										
+
 									</ul>
 								</li>
-								
+
 								<li><a href="/promotions"><span>Promotion</span></a></li>
 								<li><a href="resignation.html"><span>Resignation</span></a></li>
-								<li><a href="termination.html"><span>Termination</span></a></li>														
+								<li><a href="termination.html"><span>Termination</span></a></li>
 							</ul>
 						</li>
 						<li class="menu-title"><span>FINANCE & ACCOUNTS</span></li>
@@ -1834,7 +1918,7 @@
 							</ul>
 						</li>
 						<li class="submenu">
-							<a href="#" >
+							<a href="#">
 								<i class="ti ti-user-star"></i><span>User Management</span>
 								<span class="menu-arrow"></span>
 							</a>
@@ -1893,7 +1977,8 @@
 									</a>
 									<ul>
 										<li class="submenu">
-											<a href="javascript:void(0);" class="">Login<span class="menu-arrow"></span></a>
+											<a href="javascript:void(0);" class="">Login<span
+													class="menu-arrow"></span></a>
 											<ul>
 												<li><a href="login.html">Cover</a></li>
 												<li><a href="login-2.html">Illustration</a></li>
@@ -1901,14 +1986,16 @@
 											</ul>
 										</li>
 										<li class="submenu">
-											<a href="javascript:void(0);" class="">Register<span class="menu-arrow"></span></a>
+											<a href="javascript:void(0);" class="">Register<span
+													class="menu-arrow"></span></a>
 											<ul>
 												<li><a href="register.html">Cover</a></li>
 												<li><a href="register-2.html">Illustration</a></li>
 												<li><a href="register-3.html">Basic</a></li>
 											</ul>
 										</li>
-										<li class="submenu"><a href="javascript:void(0);">Forgot Password<span class="menu-arrow"></span></a>
+										<li class="submenu"><a href="javascript:void(0);">Forgot Password<span
+													class="menu-arrow"></span></a>
 											<ul>
 												<li><a href="forgot-password.html">Cover</a></li>
 												<li><a href="forgot-password-2.html">Illustration</a></li>
@@ -1916,7 +2003,8 @@
 											</ul>
 										</li>
 										<li class="submenu">
-											<a href="javascript:void(0);">Reset Password<span class="menu-arrow"></span></a>
+											<a href="javascript:void(0);">Reset Password<span
+													class="menu-arrow"></span></a>
 											<ul>
 												<li><a href="reset-password.html">Cover</a></li>
 												<li><a href="reset-password-2.html">Illustration</a></li>
@@ -1924,7 +2012,8 @@
 											</ul>
 										</li>
 										<li class="submenu">
-											<a href="javascript:void(0);">Email Verification<span class="menu-arrow"></span></a>
+											<a href="javascript:void(0);">Email Verification<span
+													class="menu-arrow"></span></a>
 											<ul>
 												<li><a href="email-verification.html">Cover</a></li>
 												<li><a href="email-verification-2.html">Illustration</a></li>
@@ -1932,7 +2021,8 @@
 											</ul>
 										</li>
 										<li class="submenu">
-											<a href="javascript:void(0);">2 Step Verification<span class="menu-arrow"></span></a>
+											<a href="javascript:void(0);">2 Step Verification<span
+													class="menu-arrow"></span></a>
 											<ul>
 												<li><a href="two-step-verification.html">Cover</a></li>
 												<li><a href="two-step-verification-2.html">Illustration</a></li>
@@ -2099,7 +2189,8 @@
 											</a>
 											<ul>
 												<li class="submenu submenu-two">
-													<a href="javascript:void(0);">Form Elements <span class="menu-arrow inside-submenu"></span>
+													<a href="javascript:void(0);">Form Elements <span
+															class="menu-arrow inside-submenu"></span>
 													</a>
 													<ul>
 														<li>
@@ -2126,7 +2217,8 @@
 													</ul>
 												</li>
 												<li class="submenu submenu-two">
-													<a href="javascript:void(0);">Layouts <span class="menu-arrow inside-submenu"></span>
+													<a href="javascript:void(0);">Layouts <span
+															class="menu-arrow inside-submenu"></span>
 													</a>
 													<ul>
 														<li>
@@ -2152,7 +2244,7 @@
 												<li>
 													<a href="form-pickers.html">Form Pickers</a>
 												</li>
-												
+
 											</ul>
 										</li>
 										<li class="submenu">
@@ -2265,7 +2357,8 @@
 								<li><a href="#">Documentation</a></li>
 								<li><a href="#">Change Log</a></li>
 								<li class="submenu">
-									<a href="javascript:void(0);"><span>Multi Level</span><span class="menu-arrow"></span></a>
+									<a href="javascript:void(0);"><span>Multi Level</span><span
+											class="menu-arrow"></span></a>
 									<ul>
 										<li><a href="javascript:void(0);">Multilevel 1</a></li>
 										<li class="submenu submenu-two">
@@ -2312,19 +2405,24 @@
 					<div class="sidebar-left slimscroll">
 						<div class="nav flex-column align-items-center nav-pills" id="sidebar-tabs" role="tablist"
 							aria-orientation="vertical">
-							<a href="#" class="nav-link " title="Dashboard" data-bs-toggle="tab" data-bs-target="#dashboard">
+							<a href="#" class="nav-link " title="Dashboard" data-bs-toggle="tab"
+								data-bs-target="#dashboard">
 								<i class="ti ti-smart-home"></i>
 							</a>
-							<a href="#" class="nav-link " title="Apps" data-bs-toggle="tab" data-bs-target="#application">
+							<a href="#" class="nav-link " title="Apps" data-bs-toggle="tab"
+								data-bs-target="#application">
 								<i class="ti ti-layout-grid-add"></i>
 							</a>
-							<a href="#" class="nav-link " title="Super Admin" data-bs-toggle="tab" data-bs-target="#super-admin">
+							<a href="#" class="nav-link " title="Super Admin" data-bs-toggle="tab"
+								data-bs-target="#super-admin">
 								<i class="ti ti-user-star"></i>
 							</a>
-							<a href="#" class="nav-link active" title="Layout" data-bs-toggle="tab" data-bs-target="#layout">
+							<a href="#" class="nav-link active" title="Layout" data-bs-toggle="tab"
+								data-bs-target="#layout">
 								<i class="ti ti-layout-board-split"></i>
 							</a>
-							<a href="#" class="nav-link" title="Projects" data-bs-toggle="tab" data-bs-target="#projects">
+							<a href="#" class="nav-link" title="Projects" data-bs-toggle="tab"
+								data-bs-target="#projects">
 								<i class="ti ti-users-group"></i>
 							</a>
 							<a href="#" class="nav-link" title="Crm" data-bs-toggle="tab" data-bs-target="#crm">
@@ -2336,7 +2434,8 @@
 							<a href="#" class="nav-link" title="Finance" data-bs-toggle="tab" data-bs-target="#finance">
 								<i class="ti ti-shopping-cart-dollar"></i>
 							</a>
-							<a href="#" class="nav-link" title="Administration" data-bs-toggle="tab" data-bs-target="#administration">
+							<a href="#" class="nav-link" title="Administration" data-bs-toggle="tab"
+								data-bs-target="#administration">
 								<i class="ti ti-cash"></i>
 							</a>
 							<a href="#" class="nav-link" title="Content" data-bs-toggle="tab" data-bs-target="#content">
@@ -2420,14 +2519,15 @@
 							<div class="tab-pane fade  show active" id="layout">
 								<ul>
 									<li class="menu-title"><span>LAYOUT</span></li>
-									<li><a href="layout-horizontal.html"  class="active"><span>Horizontal</span></a></li>
+									<li><a href="layout-horizontal.html" class="active"><span>Horizontal</span></a></li>
 									<li><a href="layout-detached.html"><span>Detached</span></a></li>
 									<li><a href="layout-modern.html"><span>Modern</span></a></li>
 									<li><a href="layout-two-column.html"><span>Two Column </span></a></li>
 									<li><a href="layout-hovered.html"><span>Hovered</span></a></li>
 									<li><a href="layout-box.html"><span>Boxed</span></a></li>
 									<li><a href="layout-horizontal-single.html"><span>Horizontal Single</span></a></li>
-									<li><a href="layout-horizontal-overlay.html"><span>Horizontal Overlay</span></a></li>
+									<li><a href="layout-horizontal-overlay.html"><span>Horizontal Overlay</span></a>
+									</li>
 									<li><a href="layout-horizontal-box.html"><span>Horizontal Box</span></a></li>
 									<li><a href="layout-horizontal-sidemenu.html"><span>Menu Aside</span></a></li>
 									<li><a href="layout-vertical-transparent.html"><span>Transparent</span></a></li>
@@ -2448,7 +2548,7 @@
 											<li><a href="/show_project">Projects</a></li>
 											<li><a href="/show_tasks">Tasks</a></li>
 										</ul>
-									</li>	
+									</li>
 								</ul>
 							</div>
 							<div class="tab-pane fade" id="crm">
@@ -2500,8 +2600,8 @@
 												<ul>
 													<li><a href="leaves.html">Leaves (Admin)</a></li>
 													<li><a href="leaves-employee.html">Leave (Employee)</a></li>
-													<li><a href="leave-settings.html">Leave Settings</a></li>												
-												</ul>												
+													<li><a href="leave-settings.html">Leave Settings</a></li>
+												</ul>
 											</li>
 											<li><a href="attendance-admin.html">Attendance (Admin)</a></li>
 											<li><a href="attendance-employee.html">Attendance (Employee)</a></li>
@@ -2573,7 +2673,7 @@
 											<li><a href="payslip.html">Payslip</a></li>
 											<li><a href="payroll.html">Payroll Items</a></li>
 										</ul>
-									</li>									
+									</li>
 								</ul>
 							</div>
 							<div class="tab-pane fade" id="administration">
@@ -2654,8 +2754,7 @@
 										</ul>
 									</li>
 									<li class="submenu">
-										<a href="javascript:void(0);">App Settings<span
-												class="menu-arrow"></span></a>
+										<a href="javascript:void(0);">App Settings<span class="menu-arrow"></span></a>
 										<ul>
 											<li><a href="salary-settings.html">Salary Settings</a></li>
 											<li><a href="approval-settings.html">Approval Settings</a></li>
@@ -2691,8 +2790,7 @@
 										</ul>
 									</li>
 									<li class="submenu">
-										<a href="javascript:void(0);">Other Settings<span
-												class="menu-arrow"></span></a>
+										<a href="javascript:void(0);">Other Settings<span class="menu-arrow"></span></a>
 										<ul>
 											<li><a href="custom-css.html">Custom CSS</a></li>
 											<li><a href="custom-js.html">Custom JS</a></li>
@@ -2858,7 +2956,7 @@
 											<li><a href="ui-typography.html">Typography</a></li>
 											<li><a href="ui-video.html">Video</a></li>
 											<li><a href="ui-sortable.html">Sortable</a></li>
-											<li><a href="ui-swiperjs.html">Swiperjs</a></li>						
+											<li><a href="ui-swiperjs.html">Swiperjs</a></li>
 										</ul>
 									</li>
 									<li class="submenu">
@@ -2881,7 +2979,8 @@
 										</a>
 										<ul>
 											<li class="submenu submenu-two">
-												<a href="javascript:void(0);">Form Elements<span class="menu-arrow inside-submenu"></span></a>
+												<a href="javascript:void(0);">Form Elements<span
+														class="menu-arrow inside-submenu"></span></a>
 												<ul>
 													<li><a href="form-basic-inputs.html">Basic Inputs</a></li>
 													<li><a href="form-checkbox-radios.html">Checkbox & Radios</a></li>
@@ -2893,7 +2992,8 @@
 												</ul>
 											</li>
 											<li class="submenu submenu-two">
-												<a href="javascript:void(0);">Layouts<span class="menu-arrow inside-submenu"></span></a>
+												<a href="javascript:void(0);">Layouts<span
+														class="menu-arrow inside-submenu"></span></a>
 												<ul>
 													<li><a href="form-horizontal.html">Horizontal Form</a></li>
 													<li><a href="form-vertical.html">Vertical Form</a></li>
@@ -2940,7 +3040,7 @@
 											<li><a href="icon-weather.html">Weather Icons</a></li>
 											<li><a href="icon-typicon.html">Typicon Icons</a></li>
 											<li><a href="icon-flag.html">Flag Icons</a></li>
-											
+
 										</ul>
 									</li>
 									<li class="submenu">
@@ -2966,15 +3066,18 @@
 									<li><a href="#">Documentation</a></li>
 									<li><a href="#">Change Log</a></li>
 									<li class="submenu">
-										<a href="javascript:void(0);"><span>Multi Level</span><span class="menu-arrow"></span></a>
+										<a href="javascript:void(0);"><span>Multi Level</span><span
+												class="menu-arrow"></span></a>
 										<ul>
 											<li><a href="javascript:void(0);">Multilevel 1</a></li>
 											<li class="submenu submenu-two">
-												<a href="javascript:void(0);">Multilevel 2<span class="menu-arrow inside-submenu"></span></a>
+												<a href="javascript:void(0);">Multilevel 2<span
+														class="menu-arrow inside-submenu"></span></a>
 												<ul>
 													<li><a href="javascript:void(0);">Multilevel 2.1</a></li>
 													<li class="submenu submenu-two submenu-three">
-														<a href="javascript:void(0);">Multilevel 2.2<span class="menu-arrow inside-submenu inside-submenu-two"></span></a>
+														<a href="javascript:void(0);">Multilevel 2.2<span
+																class="menu-arrow inside-submenu inside-submenu-two"></span></a>
 														<ul>
 															<li><a href="javascript:void(0);">Multilevel 2.2.1</a></li>
 															<li><a href="javascript:void(0);">Multilevel 2.2.2</a></li>
@@ -3022,7 +3125,8 @@
 							<div class="mb-1">
 								<a href="chat.html" class="btn btn-menubar position-relative">
 									<i class="ti ti-brand-hipchat"></i>
-									<span class="badge bg-info rounded-pill d-flex align-items-center justify-content-center header-badge">5</span>
+									<span
+										class="badge bg-info rounded-pill d-flex align-items-center justify-content-center header-badge">5</span>
 								</a>
 							</div>
 							<div class="mb-1">
@@ -3044,64 +3148,78 @@
 							<p class="fs-10">System Admin</p>
 						</div>
 						<div class="stack-menu">
-							<div class="nav flex-column align-items-center nav-pills" role="tablist" aria-orientation="vertical">
+							<div class="nav flex-column align-items-center nav-pills" role="tablist"
+								aria-orientation="vertical">
 								<div class="row g-2">
 									<div class="col-6">
-										<a href="#menu-dashboard" role="tab" class="nav-link " title="Dashboard" data-bs-toggle="tab" data-bs-target="#menu-dashboard" aria-selected="true">
+										<a href="#menu-dashboard" role="tab" class="nav-link " title="Dashboard"
+											data-bs-toggle="tab" data-bs-target="#menu-dashboard" aria-selected="true">
 											<span><i class="ti ti-smart-home"></i></span>
 											<p>Dashboard</p>
 										</a>
 									</div>
 									<div class="col-6">
-										<a href="#menu-application" role="tab" class="nav-link " title="Apps" data-bs-toggle="tab" data-bs-target="#menu-application" aria-selected="false">
+										<a href="#menu-application" role="tab" class="nav-link " title="Apps"
+											data-bs-toggle="tab" data-bs-target="#menu-application"
+											aria-selected="false">
 											<span><i class="ti ti-layout-grid-add"></i></span>
 											<p>Applications</p>
 										</a>
 									</div>
 									<div class="col-6">
-										<a href="#menu-superadmin" role="tab" class="nav-link " title="Apps" data-bs-toggle="tab" data-bs-target="#menu-superadmin" aria-selected="false">
+										<a href="#menu-superadmin" role="tab" class="nav-link " title="Apps"
+											data-bs-toggle="tab" data-bs-target="#menu-superadmin"
+											aria-selected="false">
 											<span><i class="ti ti-user-star"></i></span>
 											<p>Super Admin</p>
 										</a>
 									</div>
 									<div class="col-6">
-										<a href="#menu-layout" role="tab" class="nav-link active" title="Layout" data-bs-toggle="tab" data-bs-target="#menu-layout" aria-selected="false">
+										<a href="#menu-layout" role="tab" class="nav-link active" title="Layout"
+											data-bs-toggle="tab" data-bs-target="#menu-layout" aria-selected="false">
 											<span><i class="ti ti-layout-board-split"></i></span>
 											<p>Layouts</p>
 										</a>
 									</div>
 									<div class="col-6">
-										<a href="#menu-project" role="tab" class="nav-link" title="Projects" data-bs-toggle="tab" data-bs-target="#menu-project" aria-selected="false">
+										<a href="#menu-project" role="tab" class="nav-link" title="Projects"
+											data-bs-toggle="tab" data-bs-target="#menu-project" aria-selected="false">
 											<span><i class="ti ti-folder"></i></span>
 											<p>Projects</p>
 										</a>
 									</div>
 									<div class="col-6">
-										<a href="#menu-crm" role="tab" class="nav-link" title="CRM" data-bs-toggle="tab" data-bs-target="#menu-crm" aria-selected="false">
+										<a href="#menu-crm" role="tab" class="nav-link" title="CRM" data-bs-toggle="tab"
+											data-bs-target="#menu-crm" aria-selected="false">
 											<span><i class="ti ti-user-shield"></i></span>
 											<p>Crm</p>
 										</a>
 									</div>
 									<div class="col-6">
-										<a href="#menu-hrm" role="tab" class="nav-link" title="HRM" data-bs-toggle="tab" data-bs-target="#menu-hrm" aria-selected="false">
+										<a href="#menu-hrm" role="tab" class="nav-link" title="HRM" data-bs-toggle="tab"
+											data-bs-target="#menu-hrm" aria-selected="false">
 											<span><i class="ti ti-users"></i></span>
 											<p>Hrm</p>
 										</a>
 									</div>
 									<div class="col-6">
-										<a href="#menu-finance" role="tab" class="nav-link" title="Finance & Accounts" data-bs-toggle="tab" data-bs-target="#menu-finance" aria-selected="false">
+										<a href="#menu-finance" role="tab" class="nav-link" title="Finance & Accounts"
+											data-bs-toggle="tab" data-bs-target="#menu-finance" aria-selected="false">
 											<span><i class="ti ti-shopping-cart-dollar"></i></span>
 											<p>Finance & Accounts</p>
 										</a>
 									</div>
 									<div class="col-6">
-										<a href="#menu-administration" role="tab" class="nav-link" title="Administration" data-bs-toggle="tab" data-bs-target="#menu-administration" aria-selected="false">
+										<a href="#menu-administration" role="tab" class="nav-link"
+											title="Administration" data-bs-toggle="tab"
+											data-bs-target="#menu-administration" aria-selected="false">
 											<span><i class="ti ti-cash"></i></span>
 											<p>Administration</p>
 										</a>
 									</div>
 									<div class="col-6">
-										<a href="#menu-content" role="tab" class="nav-link" title="Content" data-bs-toggle="tab" data-bs-target="#menu-content" aria-selected="false">
+										<a href="#menu-content" role="tab" class="nav-link" title="Content"
+											data-bs-toggle="tab" data-bs-target="#menu-content" aria-selected="false">
 											<span><i class="ti ti-license"></i></span>
 											<p>Contents</p>
 										</a>
@@ -3114,13 +3232,17 @@
 										</a>
 									</div>
 									<div class="col-6">
-										<a href="#menu-authentication" role="tab" class="nav-link" title="Authentication" data-bs-toggle="tab" data-bs-target="#menu-authentication" aria-selected="false">
+										<a href="#menu-authentication" role="tab" class="nav-link"
+											title="Authentication" data-bs-toggle="tab"
+											data-bs-target="#menu-authentication" aria-selected="false">
 											<span><i class="ti ti-lock-check"></i></span>
 											<p>Authentication</p>
 										</a>
 									</div>
 									<div class="col-6">
-										<a href="#menu-ui-elements" role="tab" class="nav-link" title="UI Elements" data-bs-toggle="tab" data-bs-target="#menu-ui-elements" aria-selected="false">
+										<a href="#menu-ui-elements" role="tab" class="nav-link" title="UI Elements"
+											data-bs-toggle="tab" data-bs-target="#menu-ui-elements"
+											aria-selected="false">
 											<span><i class="ti ti-ux-circle"></i></span>
 											<p>Basic UI</p>
 										</a>
@@ -3143,15 +3265,14 @@
 										<li><a href="subscription.html">Subscriptions</a></li>
 										<li><a href="packages.html">Packages</a></li>
 										<li><a href="domain.html">Domain</a></li>
-										<li><a href="purchase-transaction.html" >Purchase Transaction</a></li>
+										<li><a href="purchase-transaction.html">Purchase Transaction</a></li>
 									</ul>
 								</div>
 								<div class="tab-pane fade" id="menu-application">
 									<ul class="stack-submenu">
 										<li><a href="chat.html">Chat</a></li>
 										<li class="submenu submenu-two">
-											<a href="call.html">Calls<span
-													class="menu-arrow inside-submenu"></span></a>
+											<a href="call.html">Calls<span class="menu-arrow inside-submenu"></span></a>
 											<ul>
 												<li><a href="voice-call.html">Voice Call</a></li>
 												<li><a href="video-call.html">Video Call</a></li>
@@ -3199,7 +3320,7 @@
 												<li><a href="/show_project">Projects</a></li>
 												<li><a href="/show_tasks">Tasks</a></li>
 											</ul>
-										</li>	
+										</li>
 									</ul>
 								</div>
 								<div class="tab-pane fade" id="menu-crm">
@@ -3249,8 +3370,8 @@
 													<ul>
 														<li><a href="leaves.html">Leaves (Admin)</a></li>
 														<li><a href="leaves-employee.html">Leave (Employee)</a></li>
-														<li><a href="leave-settings.html">Leave Settings</a></li>												
-													</ul>												
+														<li><a href="leave-settings.html">Leave Settings</a></li>
+													</ul>
 												</li>
 												<li><a href="attendance-admin.html">Attendance (Admin)</a></li>
 												<li><a href="attendance-employee.html">Attendance (Employee)</a></li>
@@ -3495,7 +3616,8 @@
 								<div class="tab-pane fade" id="menu-authentication">
 									<ul class="stack-submenu">
 										<li class="submenu">
-											<a href="javascript:void(0);" class="">Login<span class="menu-arrow"></span></a>
+											<a href="javascript:void(0);" class="">Login<span
+													class="menu-arrow"></span></a>
 											<ul>
 												<li><a href="login.html">Cover</a></li>
 												<li><a href="login-2.html">Illustration</a></li>
@@ -3503,7 +3625,8 @@
 											</ul>
 										</li>
 										<li class="submenu">
-											<a href="javascript:void(0);" class="">Register<span class="menu-arrow"></span></a>
+											<a href="javascript:void(0);" class="">Register<span
+													class="menu-arrow"></span></a>
 											<ul>
 												<li><a href="register.html">Cover</a></li>
 												<li><a href="register-2.html">Illustration</a></li>
@@ -3511,7 +3634,8 @@
 											</ul>
 										</li>
 										<li class="submenu">
-											<a href="javascript:void(0);">Reset Password<span class="menu-arrow"></span></a>
+											<a href="javascript:void(0);">Reset Password<span
+													class="menu-arrow"></span></a>
 											<ul>
 												<li><a href="reset-password.html">Cover</a></li>
 												<li><a href="reset-password-2.html">Illustration</a></li>
@@ -3519,7 +3643,8 @@
 											</ul>
 										</li>
 										<li class="submenu">
-											<a href="javascript:void(0);">Email Verification<span class="menu-arrow"></span></a>
+											<a href="javascript:void(0);">Email Verification<span
+													class="menu-arrow"></span></a>
 											<ul>
 												<li><a href="email-verification.html">Cover</a></li>
 												<li><a href="email-verification-2.html">Illustration</a></li>
@@ -3527,7 +3652,8 @@
 											</ul>
 										</li>
 										<li class="submenu">
-											<a href="javascript:void(0);">2 Step Verification<span class="menu-arrow"></span></a>
+											<a href="javascript:void(0);">2 Step Verification<span
+													class="menu-arrow"></span></a>
 											<ul>
 												<li><a href="two-step-verification.html">Cover</a></li>
 												<li><a href="two-step-verification-2.html">Illustration</a></li>
@@ -3573,12 +3699,13 @@
 												<li><a href="ui-tooltips.html">Tooltips</a></li>
 												<li><a href="ui-typography.html">Typography</a></li>
 												<li><a href="ui-video.html">Video</a></li>
-											<li><a href="ui-sortable.html">Sortable</a></li>
-											<li><a href="ui-swiperjs.html">Swiperjs</a></li>
+												<li><a href="ui-sortable.html">Sortable</a></li>
+												<li><a href="ui-swiperjs.html">Swiperjs</a></li>
 											</ul>
 										</li>
 										<li class="submenu">
-											<a href="javascript:void(0);"> Advanced UI<span class="menu-arrow"></span></a>
+											<a href="javascript:void(0);"> Advanced UI<span
+													class="menu-arrow"></span></a>
 											<ul>
 												<li><a href="ui-ribbon.html">Ribbon</a></li>
 												<li><a href="ui-clipboard.html">Clipboard</a></li>
@@ -3596,20 +3723,23 @@
 											<a href="javascript:void(0);">Forms<span class="menu-arrow"></span> </a>
 											<ul>
 												<li class="submenu submenu-two">
-													<a href="javascript:void(0);">Form Elements<span class="menu-arrow inside-submenu"></span></a>
+													<a href="javascript:void(0);">Form Elements<span
+															class="menu-arrow inside-submenu"></span></a>
 													<ul>
 														<li><a href="form-basic-inputs.html">Basic Inputs</a></li>
-														<li><a href="form-checkbox-radios.html">Checkbox & Radios</a> </li>
+														<li><a href="form-checkbox-radios.html">Checkbox & Radios</a>
+														</li>
 														<li><a href="form-input-groups.html">Input Groups</a></li>
 														<li><a href="form-grid-gutters.html">Grid & Gutters</a></li>
 														<li><a href="form-select.html">Form Select</a></li>
 														<li><a href="form-mask.html">Input Masks</a></li>
 														<li><a href="form-fileupload.html">File Uploads</a></li>
-														
+
 													</ul>
 												</li>
 												<li class="submenu submenu-two">
-													<a href="javascript:void(0);">Layouts<span class="menu-arrow inside-submenu"></span></a>
+													<a href="javascript:void(0);">Layouts<span
+															class="menu-arrow inside-submenu"></span></a>
 													<ul>
 														<li><a href="form-horizontal.html">Horizontal Form</a></li>
 														<li><a href="form-vertical.html">Vertical Form</a></li>
@@ -3681,21 +3811,21 @@
 					<div class="p-3">
 						<a href="javascript:void(0);" class="d-flex align-items-center fs-12 mb-3">Documentation</a>
 						<a href="https://smarthr.co.in/demo/documentation/changelog.html">
-										<i class="ti ti-exchange"></i><span>Changelog</span>
-										<span class="badge bg-pink badge-xs text-white fs-10 ms-s">v4.1.1</span>
-									</a>
+							<i class="ti ti-exchange"></i><span>Changelog</span>
+							<span class="badge bg-pink badge-xs text-white fs-10 ms-s">v4.1.1</span>
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- /Stacked Sidebar -->
 
-<div class="page-wrapper">
-	
+		<div class="page-wrapper">
 
 
 
-@yield('content')
+
+			@yield('content')
 
 
 
@@ -3713,7 +3843,8 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<h4 class="modal-title">Add New Todo</h4>
-						<button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal" aria-label="Close">
+						<button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal"
+							aria-label="Close">
 							<i class="ti ti-x"></i>
 						</button>
 					</div>
@@ -3734,7 +3865,7 @@
 											<option>Internal</option>
 											<option>Projects</option>
 											<option>Meetings</option>
-											<option>Reminder</option> 	 
+											<option>Reminder</option>
 										</select>
 									</div>
 								</div>
@@ -3800,7 +3931,8 @@
 							<h5 class="modal-title me-2">Add Project </h5>
 							<p class="text-dark">Project ID : PRO-0004</p>
 						</div>
-						<button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal" aria-label="Close">
+						<button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal"
+							aria-label="Close">
 							<i class="ti ti-x"></i>
 						</button>
 					</div>
@@ -3810,7 +3942,7 @@
 								<li class="active p-2 pt-0">
 									<h6 class="fw-medium">Basic Information</h6>
 								</li>
-								<li class="p-2 pt-0">									
+								<li class="p-2 pt-0">
 									<h6 class="fw-medium">Members</h6>
 								</li>
 							</ul>
@@ -3820,10 +3952,12 @@
 								<div class="modal-body">
 									<div class="row">
 										<div class="col-md-12">
-											<div class="d-flex align-items-center flex-wrap row-gap-3 bg-light w-100 rounded p-3 mb-4">                                                
-												<div class="d-flex align-items-center justify-content-center avatar avatar-xxl rounded-circle border border-dashed me-2 flex-shrink-0 text-dark frames">
+											<div
+												class="d-flex align-items-center flex-wrap row-gap-3 bg-light w-100 rounded p-3 mb-4">
+												<div
+													class="d-flex align-items-center justify-content-center avatar avatar-xxl rounded-circle border border-dashed me-2 flex-shrink-0 text-dark frames">
 													<i class="ti ti-photo text-gray-2 fs-16"></i>
-												</div>                                              
+												</div>
 												<div class="profile-upload">
 													<div class="mb-2">
 														<h6 class="mb-1">Upload Project Logo</h6>
@@ -3832,11 +3966,13 @@
 													<div class="profile-uploader d-flex align-items-center">
 														<div class="drag-upload-btn btn btn-sm btn-primary me-2">
 															Upload
-															<input type="file" class="form-control image-sign" multiple="">
+															<input type="file" class="form-control image-sign"
+																multiple="">
 														</div>
-														<a href="javascript:void(0);" class="btn btn-light btn-sm">Cancel</a>
+														<a href="javascript:void(0);"
+															class="btn btn-light btn-sm">Cancel</a>
 													</div>
-													
+
 												</div>
 											</div>
 										</div>
@@ -3862,7 +3998,8 @@
 													<div class="mb-3">
 														<label class="form-label">Start Date</label>
 														<div class="input-icon-end position-relative">
-															<input type="text" class="form-control datetimepicker" placeholder="dd/mm/yyyy" value="02-05-2024">
+															<input type="text" class="form-control datetimepicker"
+																placeholder="dd/mm/yyyy" value="02-05-2024">
 															<span class="input-icon-addon">
 																<i class="ti ti-calendar text-gray-7"></i>
 															</span>
@@ -3873,7 +4010,8 @@
 													<div class="mb-3">
 														<label class="form-label">End Date</label>
 														<div class="input-icon-end position-relative">
-															<input type="text" class="form-control datetimepicker" placeholder="dd/mm/yyyy" value="02-05-2024">
+															<input type="text" class="form-control datetimepicker"
+																placeholder="dd/mm/yyyy" value="02-05-2024">
 															<span class="input-icon-addon">
 																<i class="ti ti-calendar text-gray-7"></i>
 															</span>
@@ -3901,7 +4039,8 @@
 													<div class="mb-3">
 														<label class="form-label">Total Working Hours</label>
 														<div class="input-icon-end position-relative">
-															<input type="text" class="form-control timepicker" placeholder="-- : -- : --" value="02-05-2024">
+															<input type="text" class="form-control timepicker"
+																placeholder="-- : -- : --" value="02-05-2024">
 															<span class="input-icon-addon">
 																<i class="ti ti-clock-hour-3 text-gray-7"></i>
 															</span>
@@ -3922,12 +4061,14 @@
 												<div class="summernote"></div>
 											</div>
 										</div>
-									</div>								
+									</div>
 								</div>
 								<div class="modal-footer">
 									<div class="d-flex align-items-center justify-content-end">
-										<button type="button" class="btn btn-outline-light border me-2" data-bs-dismiss="modal">Cancel</button>
-										<button class="btn btn-primary wizard-next-btn" type="button">Add Team Member</button>
+										<button type="button" class="btn btn-outline-light border me-2"
+											data-bs-dismiss="modal">Cancel</button>
+										<button class="btn btn-primary wizard-next-btn" type="button">Add Team
+											Member</button>
 									</div>
 								</div>
 							</form>
@@ -3939,19 +4080,23 @@
 										<div class="col-md-12">
 											<div class="mb-3">
 												<label class="form-label me-2">Team Members</label>
-												<input class="input-tags form-control" placeholder="Add new" type="text" data-role="tagsinput"  name="Label" value="Jerald,Andrew,Philip,Davis">
+												<input class="input-tags form-control" placeholder="Add new" type="text"
+													data-role="tagsinput" name="Label"
+													value="Jerald,Andrew,Philip,Davis">
 											</div>
 										</div>
 										<div class="col-md-12">
 											<div class="mb-3">
 												<label class="form-label me-2">Team Leader</label>
-												<input class="input-tags form-control" placeholder="Add new" type="text" data-role="tagsinput"  name="Label" value="Hendry,James">
+												<input class="input-tags form-control" placeholder="Add new" type="text"
+													data-role="tagsinput" name="Label" value="Hendry,James">
 											</div>
 										</div>
 										<div class="col-md-12">
 											<div class="mb-3">
 												<label class="form-label me-2">Project Manager</label>
-												<input class="input-tags form-control" placeholder="Add new" type="text" data-role="tagsinput"  name="Label" value="Dwight">
+												<input class="input-tags form-control" placeholder="Add new" type="text"
+													data-role="tagsinput" name="Label" value="Dwight">
 											</div>
 										</div>
 										<div class="col-md-12">
@@ -3975,12 +4120,14 @@
 												</select>
 											</div>
 										</div>
-									</div>								
+									</div>
 								</div>
 								<div class="modal-footer">
 									<div class="d-flex align-items-center justify-content-end">
-										<button type="button" class="btn btn-outline-light border me-2" data-bs-dismiss="modal">Cancel</button>
-										<button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#success_modal">Save</button>
+										<button type="button" class="btn btn-outline-light border me-2"
+											data-bs-dismiss="modal">Cancel</button>
+										<button class="btn btn-primary" type="button" data-bs-toggle="modal"
+											data-bs-target="#success_modal">Save</button>
 									</div>
 								</div>
 							</form>
@@ -3997,7 +4144,8 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<h4 class="modal-title">Add Leave Request</h4>
-						<button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal" aria-label="Close">
+						<button type="button" class="btn-close custom-btn-close" data-bs-dismiss="modal"
+							aria-label="Close">
 							<i class="ti ti-x"></i>
 						</button>
 					</div>
@@ -4013,7 +4161,7 @@
 											<option>Brian Villalobos</option>
 											<option>Harvey Smith</option>
 										</select>
-									</div>	
+									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="mb-3">
@@ -4024,30 +4172,32 @@
 											<option>Casual Leave</option>
 											<option>Annual Leave</option>
 										</select>
-									</div>	
+									</div>
 								</div>
-                                <div class="col-md-6">
-                                    <div class="mb-3">
-                                        <label class="form-label">From </label>
-                                        <div class="input-icon-end position-relative">
-                                            <input type="text" class="form-control datetimepicker" placeholder="dd/mm/yyyy">
-                                            <span class="input-icon-addon">
-                                                <i class="ti ti-calendar text-gray-7"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-3">
-                                        <label class="form-label">To </label>
-                                        <div class="input-icon-end position-relative">
-                                            <input type="text" class="form-control datetimepicker" placeholder="dd/mm/yyyy">
-                                            <span class="input-icon-addon">
-                                                <i class="ti ti-calendar text-gray-7"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>   
+								<div class="col-md-6">
+									<div class="mb-3">
+										<label class="form-label">From </label>
+										<div class="input-icon-end position-relative">
+											<input type="text" class="form-control datetimepicker"
+												placeholder="dd/mm/yyyy">
+											<span class="input-icon-addon">
+												<i class="ti ti-calendar text-gray-7"></i>
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="mb-3">
+										<label class="form-label">To </label>
+										<div class="input-icon-end position-relative">
+											<input type="text" class="form-control datetimepicker"
+												placeholder="dd/mm/yyyy">
+											<span class="input-icon-addon">
+												<i class="ti ti-calendar text-gray-7"></i>
+											</span>
+										</div>
+									</div>
+								</div>
 								<div class="col-md-6">
 									<div class="mb-3">
 										<label class="form-label">No of Days</label>
@@ -4122,8 +4272,8 @@
 
 	<script src="assets/js/jquery.dataTables.min.js"></script>
 
-	<script src="assets/js/dataTables.bootstrap5.min.js"></script>	
-	
+	<script src="assets/js/dataTables.bootstrap5.min.js"></script>
+
 	<!-- Custom JS -->
 	<script src="assets/js/todo.js"></script>
 	<script src="assets/js/theme-colorpicker.js"></script>
@@ -4137,47 +4287,47 @@
 			tabsize: 2
 		});
 
-		if($('.datatable').length > 0) {
-		$('.datatable').DataTable({
-			"bFilter": true, 
-			"ordering": true,
-			"info": true,
-			"language": {
-				search: ' ',
-				sLengthMenu: 'Row Per Page _MENU_ Entries',
-				searchPlaceholder: "Search",
-				info: "Showing _START_ - _END_ of _TOTAL_ entries",
-				paginate: {
-					next: '<i class="ti ti-chevron-right"></i>',
-					previous: '<i class="ti ti-chevron-left"></i> '
-				},
-			 }
-		});
-	}	
+		if ($('.datatable').length > 0) {
+			$('.datatable').DataTable({
+				"bFilter": true,
+				"ordering": true,
+				"info": true,
+				"language": {
+					search: ' ',
+					sLengthMenu: 'Row Per Page _MENU_ Entries',
+					searchPlaceholder: "Search",
+					info: "Showing _START_ - _END_ of _TOTAL_ entries",
+					paginate: {
+						next: '<i class="ti ti-chevron-right"></i>',
+						previous: '<i class="ti ti-chevron-left"></i> '
+					},
+				}
+			});
+		}
 
 
 
-	<script>
-    @if(session('success'))
-        Swal.fire({
-            icon: 'success',
-            title: 'Success',
-            text: "{{ session('success') }}",
-            showConfirmButton: false,
-            timer: 1800
-        });
-    @endif
+		<script>
+			@if(session('success'))
+					Swal.fire({
+						icon: 'success',
+					title: 'Success',
+					text: "{{ session('success') }}",
+					showConfirmButton: false,
+					timer: 1800
+				});
+			@endif
 
-    @if(session('error'))
-        Swal.fire({
-            icon: 'error',
-            title: 'Error',
-            text: "{{ session('error') }}",
-            showConfirmButton: false,
-            timer: 1800
-        });
-    @endif
-</script>
+			@if(session('error'))
+					Swal.fire({
+						icon: 'error',
+					title: 'Error',
+					text: "{{ session('error') }}",
+					showConfirmButton: false,
+					timer: 1800
+				});
+			@endif
+	</script>
 </body>
 
 </html>
