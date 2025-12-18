@@ -167,7 +167,7 @@
                                         <td>RS. {{$data->medical_allowance}}</td>
                                         <td>RS. {{$data->others}}</td>
                                        
-                                        <td><span class="badge badge-secondary badge-md"><a href="{{route('payslip.data', $data->payroll_id)}}">Generate Slip</a></span></td>
+                                        <td><span class="badge border border-secondary badge-md"><a href="{{route('payslip.data', $data->payroll_id)}}">Generate Slip</a></span></td>
                                         <td>
 											<div class="action-icon d-inline-flex">
 											<a href="#" class="me-2" data-bs-toggle="modal" data-bs-target="#edit-employee-salary-{{$data->payroll_id}}"><i class="ti ti-edit"></i></a>
