@@ -120,7 +120,7 @@
 										<div class="card-body pb-1">
 											<div class="row">
 												<div class="col-sm-6">
-													<a href="contacts.html"
+													<a href="/contact"
 														class="d-flex align-items-center justify-content-between p-2 crm-link mb-3">
 														<span class="d-flex align-items-center me-3">
 															<i class="ti ti-user-shield text-default me-2"></i>Contacts
@@ -144,7 +144,7 @@
 													</a>
 												</div>
 												<div class="col-sm-6">
-													<a href="companies-grid.html"
+													<a href="/company"
 														class="d-flex align-items-center justify-content-between p-2 crm-link mb-3">
 														<span class="d-flex align-items-center me-3">
 															<i class="ti ti-building text-default me-2"></i>Companies
@@ -203,7 +203,7 @@
 											</a>
 											<ul>
 												<li><a href="dashboard.html">Dashboard</a></li>
-												<li><a href="companies.html">Companies</a></li>
+												<li><a href="/company">Companies</a></li>
 												<li><a href="subscription.html">Subscriptions</a></li>
 												<li><a href="packages.html">Packages</a></li>
 												<li><a href="domain.html">Domain</a></li>
@@ -338,8 +338,8 @@
 												<li class="submenu">
 													<a href="call.html">Crm<span class="menu-arrow"></span></a>
 													<ul>
-														<li><a href="contacts-grid.html"><span>Contacts</span></a></li>
-														<li><a href="companies-grid.html"><span>Companies</span></a>
+														<li><a href="/contact"><span>Contacts</span></a></li>
+														<li><a href="/company"><span>Companies</span></a>
 														</li>
 														<li><a href="deals-grid.html"><span>Deals</span></a></li>
 														<li><a href="leads-grid.html"><span>Leads</span></a></li>
@@ -367,7 +367,7 @@
 													</a>
 													<ul>
 														<li><a href="/show_tickets">Tickets</a></li>
-														<li><a href="ticket-details.html">Ticket Details</a></li>
+														<!-- <li><a href="ticket-details.html">Ticket Details</a></li> -->
 													</ul>
 												</li>
 												<li><a href="/holidays"><span>Holidays</span></a></li>
@@ -460,8 +460,8 @@
 														<span class="menu-arrow"></span>
 													</a>
 													<ul>
-														<li><a href="employee-salary.html">Employee Salary</a></li>
-														<li><a href="payslip.html">Payslip</a></li>
+														<li><a href="/employee_salary">Employee Salary</a></li>
+														<!-- <li><a href="payslip.html">Payslip</a></li> -->
 														<li><a href="payroll.html">Payroll Items</a></li>
 													</ul>
 												</li>
@@ -1481,12 +1481,12 @@
 						<li>
 							<ul>
 								<li>
-									<a href="contacts-grid.html">
+									<a href="/contact">
 										<i class="ti ti-user-shield"></i><span>Contacts</span>
 									</a>
 								</li>
 								<li>
-									<a href="companies-grid.html">
+									<a href="/company">
 										<i class="ti ti-building"></i><span>Companies</span>
 									</a>
 								</li>
@@ -1515,7 +1515,7 @@
 									</a>
 									<ul>
 										<li><a href="/show_tickets">Tickets</a></li>
-										<li><a href="ticket-details.html">Ticket Details</a></li>
+										<!-- <li><a href="ticket-details.html">Ticket Details</a></li> -->
 									</ul>
 								</li>
 								<li>
@@ -1609,8 +1609,8 @@
 										<span class="menu-arrow"></span>
 									</a>
 									<ul>
-										<li><a href="employee-salary.html">Employee Salary</a></li>
-										<li><a href="payslip.html">Payslip</a></li>
+										<li><a href="/employee_salary">Employee Salary</a></li>
+										<!-- <li><a href="payslip.html">Payslip</a></li> -->
 										<li><a href="payroll.html">Payroll Items</a></li>
 									</ul>
 								</li>
@@ -1767,7 +1767,7 @@
 									<a href="call.html">Tickets<span class="menu-arrow"></span></a>
 									<ul>
 										<li><a href="/show_tickets"><span>Tickets</span></a></li>
-										<li><a href="companies-grid.html"><span>Ticket Details</span></a></li>
+										<!-- <li><a href="companies-grid.html"><span>Ticket Details</span></a></li> -->
 									</ul>
 								</li>
 								<li>
@@ -1793,7 +1793,7 @@
 									</a>
 									<ul>
 										<li><a href="/show_tickets">Tickets</a></li>
-										<li><a href="ticket-details.html">Ticket Details</a></li>
+										<!-- <li><a href="ticket-details.html">Ticket Details</a></li> -->
 									</ul>
 								</li>
 								<li><a href="/holidays"><span>Holidays</span></a></li>
@@ -1866,8 +1866,8 @@
 										<span class="menu-arrow"></span>
 									</a>
 									<ul>
-										<li><a href="employee-salary.html">Employee Salary</a></li>
-										<li><a href="payslip.html">Payslip</a></li>
+										<li><a href="/employee_salary">Employee Salary</a></li>
+										<!-- <li><a href="payslip.html">Payslip</a></li> -->
 										<li><a href="payroll.html">Payroll Items</a></li>
 									</ul>
 								</li>
@@ -2509,7 +2509,7 @@
 								<ul>
 									<li class="menu-title"><span>SUPER ADMIN</span></li>
 									<li><a href="dashboard.html">Dashboard</a></li>
-									<li><a href="companies.html">Companies</a></li>
+									<li><a href="/company">Companies</a></li>
 									<li><a href="subscription.html">Subscriptions</a></li>
 									<li><a href="packages.html">Packages</a></li>
 									<li><a href="domain.html">Domain</a></li>
@@ -2554,8 +2554,8 @@
 							<div class="tab-pane fade" id="crm">
 								<ul>
 									<li class="menu-title"><span>CRM</span></li>
-									<li><a href="contacts-grid.html"><span>Contacts</span></a></li>
-									<li><a href="companies-grid.html"><span>Companies</span></a></li>
+									<li><a href="/contact"><span>Contacts</span></a></li>
+									<li><a href="/company"><span>Companies</span></a></li>
 									<li><a href="deals-grid.html"><span>Deals</span></a></li>
 									<li><a href="leads-grid.html"><span>Leads</span></a></li>
 									<li><a href="pipeline.html"><span>Pipeline</span></a></li>
@@ -2585,7 +2585,7 @@
 										</a>
 										<ul>
 											<li><a href="/show_tickets">Tickets</a></li>
-											<li><a href="ticket-details.html">Ticket Details</a></li>
+											<!-- <li><a href="ticket-details.html">Ticket Details</a></li> -->
 										</ul>
 									</li>
 									<li><a href="/holidays"><span>Holidays</span></a></li>
@@ -2669,8 +2669,8 @@
 											<span class="menu-arrow"></span>
 										</a>
 										<ul>
-											<li><a href="employee-salary.html">Employee Salary</a></li>
-											<li><a href="payslip.html">Payslip</a></li>
+											<li><a href="/employee_salary">Employee Salary</a></li>
+											<!-- <li><a href="payslip.html">Payslip</a></li> -->
 											<li><a href="payroll.html">Payroll Items</a></li>
 										</ul>
 									</li>
@@ -3261,7 +3261,7 @@
 								<div class="tab-pane fade" id="menu-superadmin">
 									<ul class="stack-submenu">
 										<li><a href="dashboard.html">Dashboard</a></li>
-										<li><a href="companies.html">Companies</a></li>
+										<li><a href="/company">Companies</a></li>
 										<li><a href="subscription.html">Subscriptions</a></li>
 										<li><a href="packages.html">Packages</a></li>
 										<li><a href="domain.html">Domain</a></li>
@@ -3325,8 +3325,8 @@
 								</div>
 								<div class="tab-pane fade" id="menu-crm">
 									<ul class="stack-submenu">
-										<li><a href="contacts-grid.html"><span>Contacts</span></a></li>
-										<li><a href="companies-grid.html"><span>Companies</span></a></li>
+										<li><a href="/contact"><span>Contacts</span></a></li>
+										<li><a href="/company"><span>Companies</span></a></li>
 										<li><a href="deals-grid.html"><span>Deals</span></a></li>
 										<li><a href="leads-grid.html"><span>Leads</span></a></li>
 										<li><a href="pipeline.html"><span>Pipeline</span></a></li>
@@ -3355,7 +3355,7 @@
 											</a>
 											<ul>
 												<li><a href="/show_tickets">Tickets</a></li>
-												<li><a href="ticket-details.html">Ticket Details</a></li>
+												<!-- <li><a href="ticket-details.html">Ticket Details</a></li> -->
 											</ul>
 										</li>
 										<li><a href="/holidays"><span>Holidays</span></a></li>
@@ -3438,8 +3438,8 @@
 												<span class="menu-arrow"></span>
 											</a>
 											<ul>
-												<li><a href="employee-salary.html">Employee Salary</a></li>
-												<li><a href="payslip.html">Payslip</a></li>
+												<li><a href="/employee_salary">Employee Salary</a></li>
+												<!-- <li><a href="payslip.html">Payslip</a></li> -->
 												<li><a href="payroll.html">Payroll Items</a></li>
 											</ul>
 										</li>
