@@ -13,7 +13,7 @@ use App\Http\Controllers\EmployeeDetailsController;
 use App\Http\Controllers\HolidayController;
 use App\Http\Controllers\PromotionController;
 use App\Http\Controllers\TicketController;
-
+use App\Http\Controllers\PayrollController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -122,3 +122,13 @@ Route::post('/promotionsstore',[PromotionController::class,'promotionsstore']);
 Route::post('/promotionssave', [PromotionController::class,'promotionssave']);
 Route::get('/delete_promotions',[PromotionController::class,'delete_promotions']);
 
+
+//PAYROLL
+Route::get('/employee_salary',[PayrollController::class,'employee_salary'])->name('payroll.salary');
+Route::post('/store_employee_salary',[PayrollController::class,'store_employee_salary']);
+Route::get('/delete_employee_salary',[PayrollController::class,'delete_employee_salary']);
+Route::post('/db_employee_salary', [PayrollController::class,'db_employee_salary']);
+
+
+//PAYSLIPS
+Route::get('/view_payslips/{payslip_id}',[PayrollController::class,'view_payslips'])->name('payslip.data');
