@@ -3,7 +3,7 @@
 
 
 
-<<<<<<< HEAD
+
 				<!-- Breadcrumb -->
 				<div class="d-md-flex d-block align-items-center justify-content-between page-breadcrumb mb-3">
 					<div class="my-auto mb-2">
@@ -1596,10 +1596,9 @@
 
 				</div>
 
-			
-=======
+
 	<!-- Breadcrumb -->
-	<div class="d-md-flex d-block align-items-center justify-content-between page-breadcrumb mb-3">
+	<div class="d-md-flex d-block align-items-center justify-content-between page-breadcrumb mb-3 mt-5">
 		<div class="my-auto mb-2">
 			<h2 class="mb-1">Admin Dashboard</h2>
 			<nav>
@@ -3379,7 +3378,6 @@
 	</div>
 
 
->>>>>>> b742c1820d31cd804ed7e72a950f2cc5981b2e2d
 
 
 @endsection
