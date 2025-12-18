@@ -131,4 +131,4 @@ Route::post('/db_employee_salary', [PayrollController::class,'db_employee_salary
 
 
 //PAYSLIPS
-Route::get('/view_payslips/{payslip_id}',[PayrollController::class,'view_payslips'])->name('payslip.data');
+Route::get('/view_payslips/{payroll_id}',[PayrollController::class,'view_payslips'])->name('payslip.data');
