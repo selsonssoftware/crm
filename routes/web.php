@@ -34,6 +34,9 @@ Route::get('/', function () {
 });
 
 
+Route::get('/invoice', function () {
+    return view('sales.invoice');
+})->name('invoice');
 
 //UserManagementController
  Route::get('/user_details',[UserManagementController::class,'usermanagememnt'])->name('store.user');
