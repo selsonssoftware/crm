@@ -135,3 +135,18 @@ Route::post('/db_employee_salary', [PayrollController::class,'db_employee_salary
 
 //PAYSLIPS
 Route::get('/view_payslips/{payroll_id}',[PayrollController::class,'view_payslips'])->name('payslip.data');
+
+
+//Invoice
+Route::get('/view_invoice',[InvoiceController::class,'view_invoice'])->name('show');
+Route::get('/delete_invoice',[InvoiceController::class,'delete_invoice']);
+
+// Route::get('/invoice_details',[InvoiceController::class,'invoice_details']);
+Route::get('/edit_invoice',[InvoiceController::class,'edit_invoice']);
+Route::post('/updated_invoice', [InvoiceController::class, 'updated_invoice']);
+Route::get('/download_invoice/{invoice_id}', [InvoiceController::class, 'download_invoice']);
+
+
+
+Route::get('/add_invoice',[InvoiceController::class,'add_invoice']);
+Route::post('/store_invoice', [InvoiceController::class,'store_invoice']);
