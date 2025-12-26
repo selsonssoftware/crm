@@ -14,6 +14,7 @@ use App\Http\Controllers\HolidayController;
 use App\Http\Controllers\PromotionController;
 use App\Http\Controllers\TicketController;
 use App\Http\Controllers\PayrollController;
+use App\Http\Controllers\InvoiceController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
