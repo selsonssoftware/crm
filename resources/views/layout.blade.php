@@ -3288,7 +3288,7 @@
 										<li><a href="social-feed.html">Social Feed</a></li>
 										<li><a href="file-manager.html">File Manager</a></li>
 										<li><a href="kanban-view.html">Kanban</a></li>
-										<li><a href="//view_invoice">Invoices</a></li>
+										<li><a href="/view_invoice">Invoices</a></li>
 									</ul>
 								</div>
 								<div class="tab-pane fade show active" id="menu-layout">
