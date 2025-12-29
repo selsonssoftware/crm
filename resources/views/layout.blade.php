@@ -1129,7 +1129,7 @@
 												<span class="avatar avatar-md bg-transparent-dark me-2"><i
 														class="ti ti-layout-kanban text-gray-9"></i></span>Kanban
 											</a>
-											<a href="invoices.html" class="d-block py-2 pb-0">
+											<a href="/view_invoice" class="d-block py-2 pb-0">
 												<span class="avatar avatar-md bg-transparent-dark me-2"><i
 														class="ti ti-file-invoice text-gray-9"></i></span>Invoices
 											</a>
@@ -2502,7 +2502,7 @@
 									<li><a href="social-feed.html">Social Feed</a></li>
 									<li><a href="file-manager.html">File Manager</a></li>
 									<li><a href="kanban-view.html">Kanban</a></li>
-									<li><a href="invoices.html">Invoices</a></li>
+									<li><a href="/view_invoice">Invoices</a></li>
 								</ul>
 							</div>
 							<div class="tab-pane fade" id="super-admin">
@@ -3288,7 +3288,7 @@
 										<li><a href="social-feed.html">Social Feed</a></li>
 										<li><a href="file-manager.html">File Manager</a></li>
 										<li><a href="kanban-view.html">Kanban</a></li>
-										<li><a href="invoices.html">Invoices</a></li>
+										<li><a href="/">Invoices</a></li>
 									</ul>
 								</div>
 								<div class="tab-pane fade show active" id="menu-layout">
