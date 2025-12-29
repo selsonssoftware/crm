@@ -516,11 +516,11 @@
 														<span class="menu-arrow"></span>
 													</a>
 													<ul>
-														<li><a href="/generalsettings">General Settings</a></li>
-														<!-- <li class="submenu">
-															<a href="/generalsettings">General Settings
+														<li class="submenu">
+															<a href="/generalsettings">General Settings<span
+																class="menu-arrow"></span>
 															</a>
-														</li> -->
+														</li>
 														<li class="submenu">
 															<a href="javascript:void(0);">Website Settings<span
 																	class="menu-arrow"></span></a>
@@ -1889,9 +1889,7 @@
 										<span class="menu-arrow"></span>
 									</a>
 									<ul>
-										<li class="submenu">
-											<a href="/generalsettings">General Settings</a>
-										</li>
+										<li><a href="/generalsettings">General Settings</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -2704,10 +2702,14 @@
 										</ul>
 									</li>
 									<li class="submenu">
-										<a href="/generalsettings">
-											General Settings
-										</a>
-									</li>
+									<a href="javascript:void(0);">
+										<i class="ti ti-settings"></i><span>Settings</span>
+										<span class="menu-arrow"></span>
+									</a>
+									<ul>
+										<li><a href="/generalsettings">General Settings</a></li>
+									</ul>
+								</li>
 									<li class="submenu">
 										<a href="javascript:void(0);">
 											Website Settings
@@ -3465,10 +3467,14 @@
 											</ul>
 										</li>
 										<li class="submenu">
-											<a href="/generalsettings">
-												General Settings
-											</a>
-										</li>
+									<a href="javascript:void(0);">
+										<i class="ti ti-settings"></i><span>Settings</span>
+										<span class="menu-arrow"></span>
+									</a>
+									<ul>
+										<li><a href="/generalsettings">General Settings</a></li>
+									</ul>
+								</li>
 										<li class="submenu">
 											<a href="javascript:void(0);">
 												Website Settings
