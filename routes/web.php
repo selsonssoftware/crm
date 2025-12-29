@@ -15,6 +15,7 @@ use App\Http\Controllers\PromotionController;
 use App\Http\Controllers\TicketController;
 use App\Http\Controllers\PayrollController;
 use App\Http\Controllers\InvoiceController;
+use App\Http\Controllers\EstimateController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -151,3 +152,9 @@ Route::get('/download_invoice/{invoice_id}', [InvoiceController::class, 'downloa
 
 Route::get('/add_invoice',[InvoiceController::class,'add_invoice']);
 Route::post('/store_invoice', [InvoiceController::class,'store_invoice']);
+
+//Estimate
+Route::get('/estimates', [EstimateController::class, 'estimate']);
+Route::post('/store_estimate', [EstimateController::class, 'store_estimate']);
+Route::post('/update_estimate', [EstimateController::class, 'update_estimate']);
+Route::get('/delete_estimate/{estimate_Id}', [EstimateController::class, 'delete_estimate']);
