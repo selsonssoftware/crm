@@ -4,7 +4,7 @@
 	<div class="main-wrapper">
 		<!-- Page Wrapper -->
 		<div class="page-wrapper">
-			<div class="content">
+			<div class="content  mt-5">
 				<div class="row align-items-center">
 					<div class="col-md-10 mx-auto">
 						<div class="card">
@@ -18,9 +18,9 @@
                                             </span>
                                             Back to List
                                         </a>
-                                        <a href="#" class="text-primary text-decoration-underline" data-bs-toggle="modal" data-bs-target="#invoice_preview">
+                                        <!-- <a href="#" class="text-primary text-decoration-underline" data-bs-toggle="modal" data-bs-target="#invoice_preview">
                                             Preview 
-                                        </a>
+                                        </a> -->
                                     </div>
 
                                     <!-- My details -->

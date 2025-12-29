@@ -16,6 +16,8 @@ use App\Http\Controllers\TicketController;
 use App\Http\Controllers\PayrollController;
 use App\Http\Controllers\InvoiceController;
 use App\Http\Controllers\EstimateController;
+use App\Http\Controllers\GeneralsettingController;
+use App\Http\Controllers\ExpenseController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -158,3 +160,14 @@ Route::get('/estimates', [EstimateController::class, 'estimate']);
 Route::post('/store_estimate', [EstimateController::class, 'store_estimate']);
 Route::post('/update_estimate', [EstimateController::class, 'update_estimate']);
 Route::get('/delete_estimate/{estimate_Id}', [EstimateController::class, 'delete_estimate']);
+
+
+//expenses
+Route::get('/expenses',[ExpenseController::class,'expenses']);
+Route::post('/expensesstore',[ExpenseController::class,'expensesstore']);
+Route::post('/expensessave', [ExpenseController::class,'expensessave']);
+Route::get('/delete_expenses',[ExpenseController::class,'delete_expenses']);
+
+//generalsettings
+Route::get('/generalsettings', [GeneralsettingController::class,'generalsettings']);
+Route::post('/generalsettingsstore', [GeneralsettingController::class, 'generalsettingsstore']);
