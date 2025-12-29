@@ -436,7 +436,7 @@
 														<span class="menu-arrow"></span>
 													</a>
 													<ul>
-														<li><a href="estimates.html">Estimates</a></li>
+														<li><a href="/estimate">Estimates</a></li>
 														<li><a href="/view_invoice">Invoices</a></li>
 														<li><a href="payments.html">Payments</a></li>
 														<li><a href="expenses.html">Expenses</a></li>
@@ -1583,7 +1583,7 @@
 										<span class="menu-arrow"></span>
 									</a>
 									<ul>
-										<li><a href="estimates.html">Estimates</a></li>
+										<li><a href="/estimate">Estimates</a></li>
 										<li><a href="/view_invoice">Invoices</a></li>
 										<li><a href="payments.html">Payments</a></li>
 										<li><a href="expenses.html">Expenses</a></li>
@@ -1842,7 +1842,7 @@
 										<span class="menu-arrow"></span>
 									</a>
 									<ul>
-										<li><a href="estimates.html">Estimates</a></li>
+										<li><a href="/estimate">Estimates</a></li>
 										<li><a href="/view_invoice">Invoices</a></li>
 										<li><a href="payments.html">Payments</a></li>
 										<li><a href="expenses.html">Expenses</a></li>
@@ -2645,7 +2645,7 @@
 											<span class="menu-arrow"></span>
 										</a>
 										<ul>
-											<li><a href="estimates.html">Estimates</a></li>
+											<li><a href="/estimate">Estimates</a></li>
 											<li><a href="/view_invoice">Invoices</a></li>
 											<li><a href="payments.html">Payments</a></li>
 											<li><a href="expenses.html">Expenses</a></li>
@@ -3414,7 +3414,7 @@
 												<span class="menu-arrow"></span>
 											</a>
 											<ul>
-												<li><a href="estimates.html">Estimates</a></li>
+												<li><a href="/estimate">Estimates</a></li>
 												<li><a href="/view_invoice">Invoices</a></li>
 												<li><a href="payments.html">Payments</a></li>
 												<li><a href="expenses.html">Expenses</a></li>
