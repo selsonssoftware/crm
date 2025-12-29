@@ -439,7 +439,7 @@
 														<li><a href="/estimates">Estimates</a></li>
 														<li><a href="/view_invoice">Invoices</a></li>
 														<li><a href="payments.html">Payments</a></li>
-														<li><a href="expenses.html">Expenses</a></li>
+														<li><a href="/expenses">Expenses</a></li>
 														<li><a href="provident-fund.html">Provident Fund</a></li>
 														<li><a href="taxes.html">Taxes</a></li>
 													</ul>
@@ -516,19 +516,11 @@
 														<span class="menu-arrow"></span>
 													</a>
 													<ul>
-														<li class="submenu">
-															<a href="javascript:void(0);">General Settings<span
-																	class="menu-arrow"></span></a>
-															<ul>
-																<li><a href="profile-settings.html">Profile</a></li>
-																<li><a href="security-settings.html">Security</a></li>
-																<li><a
-																		href="notification-settings.html">Notifications</a>
-																</li>
-																<li><a href="connected-apps.html">Connected Apps</a>
-																</li>
-															</ul>
-														</li>
+														<li><a href="/generalsettings">General Settings</a></li>
+														<!-- <li class="submenu">
+															<a href="/generalsettings">General Settings
+															</a>
+														</li> -->
 														<li class="submenu">
 															<a href="javascript:void(0);">Website Settings<span
 																	class="menu-arrow"></span></a>
@@ -1586,7 +1578,7 @@
 										<li><a href="/estimates">Estimates</a></li>
 										<li><a href="/view_invoice">Invoices</a></li>
 										<li><a href="payments.html">Payments</a></li>
-										<li><a href="expenses.html">Expenses</a></li>
+										<li><a href="/expenses">Expenses</a></li>
 										<li><a href="provident-fund.html">Provident Fund</a></li>
 										<li><a href="taxes.html">Taxes</a></li>
 									</ul>
@@ -1665,14 +1657,7 @@
 										<span class="menu-arrow"></span>
 									</a>
 									<ul>
-										<li class="submenu submenu-two">
-											<a href="javascript:void(0);">General Settings<span
-													class="menu-arrow inside-submenu"></span></a>
-											<ul>
-												<li><a href="profile-settings.html">Profile</a></li>
-												<li><a href="security-settings.html">Security</a></li>
-											</ul>
-										</li>
+										<li><a href="/generalsettings">General Settings</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -1845,7 +1830,7 @@
 										<li><a href="/estimates">Estimates</a></li>
 										<li><a href="/view_invoice">Invoices</a></li>
 										<li><a href="payments.html">Payments</a></li>
-										<li><a href="expenses.html">Expenses</a></li>
+										<li><a href="/expenses">Expenses</a></li>
 										<li><a href="provident-fund.html">Provident Fund</a></li>
 										<li><a href="taxes.html">Taxes</a></li>
 									</ul>
@@ -1905,13 +1890,7 @@
 									</a>
 									<ul>
 										<li class="submenu">
-											<a href="javascript:void(0);">General Settings<span
-													class="menu-arrow"></span></a>
-											<ul>
-												<li><a href="profile-settings.html">Profile</a></li>
-												<li><a href="security-settings.html">Security</a></li>
-												<li><a href="notification-settings.html">Change Password</a></li>
-											</ul>
+											<a href="/generalsettings">General Settings</a>
 										</li>
 									</ul>
 								</li>
@@ -2648,7 +2627,7 @@
 											<li><a href="/estimates">Estimates</a></li>
 											<li><a href="/view_invoice">Invoices</a></li>
 											<li><a href="payments.html">Payments</a></li>
-											<li><a href="expenses.html">Expenses</a></li>
+											<li><a href="/expenses">Expenses</a></li>
 											<li><a href="provident-fund.html">Provident Fund</a></li>
 											<li><a href="taxes.html">Taxes</a></li>
 										</ul>
@@ -2725,16 +2704,9 @@
 										</ul>
 									</li>
 									<li class="submenu">
-										<a href="javascript:void(0);">
+										<a href="/generalsettings">
 											General Settings
-											<span class="menu-arrow"></span>
 										</a>
-										<ul>
-											<li><a href="profile-settings.html">Profile</a></li>
-											<li><a href="security-settings.html">Security</a></li>
-											<li><a href="notification-settings.html">Notifications</a></li>
-											<li><a href="connected-apps.html">Connected Apps</a></li>
-										</ul>
 									</li>
 									<li class="submenu">
 										<a href="javascript:void(0);">
@@ -3417,7 +3389,7 @@
 												<li><a href="/estimates">Estimates</a></li>
 												<li><a href="/view_invoice">Invoices</a></li>
 												<li><a href="payments.html">Payments</a></li>
-												<li><a href="expenses.html">Expenses</a></li>
+												<li><a href="/expenses">Expenses</a></li>
 												<li><a href="provident-fund.html">Provident Fund</a></li>
 												<li><a href="taxes.html">Taxes</a></li>
 											</ul>
@@ -3493,16 +3465,9 @@
 											</ul>
 										</li>
 										<li class="submenu">
-											<a href="javascript:void(0);">
+											<a href="/generalsettings">
 												General Settings
-												<span class="menu-arrow"></span>
 											</a>
-											<ul>
-												<li><a href="profile-settings.html">Profile</a></li>
-												<li><a href="security-settings.html">Security</a></li>
-												<li><a href="notification-settings.html">Notifications</a></li>
-												<li><a href="connected-apps.html">Connected Apps</a></li>
-											</ul>
 										</li>
 										<li class="submenu">
 											<a href="javascript:void(0);">

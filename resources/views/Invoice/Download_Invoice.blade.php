@@ -3751,7 +3751,7 @@
                                     <div class="row justify-content-between align-items-center border-bottom mb-3">
                                         <div class="col-md-6">
                                             <div class="mb-2">
-                                               <img src="{{ asset('uploads/'.$details->logo) }}" class="img-fluid" alt="logo">
+                                               <img src="{{ asset('uploads/generalsettings/'.$details->logo) }}" class="img-fluid" alt="logo">
                                             </div>
                                             <p>{{$details->address}},{{$details->city}},{{$details->state}} {{$details->pincode}}.</p>
                                         </div>
@@ -3867,7 +3867,7 @@
                                     <div class="row justify-content-end align-items-end text-end border-bottom mb-3">
                                         <div class="col-md-3">
                                             <div class="text-end">
-                                                <img src="{{ asset('uploads/'.$details->logo) }}" class="img-fluid" alt="logo">
+                                                <img src="{{ asset('uploads/generalsettings/'.$details->logo) }}" class="img-fluid" alt="logo">
                                             </div>
                                             <div class="text-end mb-3">
                                                 <h6 class="fs-14 fw-medium pe-3">Ted M. SSS</h6>
@@ -3877,7 +3877,7 @@
                                     </div>
                                     <div class="text-center">
                                         <div class="mb-3">
-                                            <img src="{{ asset('uploads/'.$details->logo) }}" class="img-fluid" alt="logo">
+                                            <img src="{{ asset('uploads/generalsettings/'.$details->logo) }}" class="img-fluid" alt="logo">
                                         </div>
                                         <p class="text-dark mb-1">Payment Made Via bank transfer / Cheque in the name of Thomas Lawler</p>
                                         <div class="d-flex justify-content-center align-items-center">

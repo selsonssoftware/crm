@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Generalsetting;
+use App\Models\general_settings;
 
 class GeneralsettingController extends Controller
 {
     public function generalsettings()
     {
-        $generalsettings = Generalsetting::first();
+        $generalsettings = general_settings::first();
         return view('Generalsetting.generalsettings', compact('generalsettings'));
     }
 
@@ -34,7 +34,7 @@ class GeneralsettingController extends Controller
             $generalsettings['logo'] = $filename;
         }
 
-        Generalsetting::updateOrCreate(
+        general_settings::updateOrCreate(
             ['id' => 1], 
             $generalsettings
         );
