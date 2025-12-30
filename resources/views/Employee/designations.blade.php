@@ -206,18 +206,22 @@
 														<div class="col-md-12">
 															<div class="mb-3">
 																<label class="form-label">Status</label>
-																<select name="status" class="select" required>
-																	<option value="">Select</option>
+																  <select name="status" class="form-control">
 
-																	<option value="1" {{ old('status', $item->status) == 1 ? 'selected' : '' }}>
-																		Active
-																	</option>
+																<option value="">Select</option>
 
-																	<option value="0" {{ old('status', $item->status) == 0 ? 'selected' : '' }}>
-																		Inactive
-																	</option>
-																</select>
-															</div>
+																<option value="Active"
+																	{{ $item->status == 'Active' ? 'selected' : '' }}>
+																	Active
+																</option>
+
+																<option value="Inactive"
+																	{{ $item->status == 'Inactive' ? 'selected' : '' }}>
+																	Inactive
+																</option>
+
+															</select>															
+														</div>
 														</div>
 													</div>
 												</div>
@@ -274,14 +278,14 @@
 						</button>
 					</div>
 					<form action="/designationsstore" method="post" enctype="multipart/form-data">
-						@csrf
+					@csrf
 						<div class="modal-body pb-0">
 							<div class="row">
 								<div class="col-md-12">
 									<div class="mb-3">
 										<label class="form-label">Designation Name</label>
-										<input type="text" class="form-control" name="title">
-									</div>
+                                        <input type="text" class="form-control" name="title">
+									</div>	
 								</div>
 								<div class="col-md-12">
 									<div class="mb-3">
@@ -297,15 +301,15 @@
 
 
 
-									</div>
+									</div>	
 								</div>
 								<div class="col-md-12">
 									<div class="mb-3">
 										<label class="form-label">Status</label>
-										<select name="status" class="select" required>
+										<select class="select"  name="status" required>
 											<option value="">Select</option>
-											<option value="1">Active</option>
-											<option value="0">Inactive</option>
+											<option value="Active">Active</option>
+											<option value="Inactive">Inactive</option>
 										</select>
 									</div>
 								</div>
