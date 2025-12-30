@@ -124,8 +124,8 @@
 										<h6 class="fw-medium"><a href="#">{{$data->name}}</a></h6>
 									</td>
 									<!-- <td>
-															20
-														</td> -->
+																	20
+																</td> -->
 									<td>
 										@if($data->status == 'Active')
 
@@ -179,12 +179,16 @@
 														<div class="col-md-12">
 															<div class="mb-3">
 																<label class="form-label">Status</label>
-																<select class="select" name="status" >
-																	<option>Select</option>
-																	<option value="Active" {{ $data->status == 'Active' ?
-																		'selected' : '' }}>Active</option>
-																	<option value="In Active" {{ $data->status == 'In Active' ?
-																		'selected' : '' }}>In Active</option>
+																<select class="select" name="status">
+																	<option value="">Select</option>
+																	<option value="Active" {{ $item->status == 'Active' ?
+																		'selected' : '' }}>
+																		Active
+																	</option>
+																	<option value="Inactive" {{ $item->status == 'Inactive' ?
+																		'selected' : '' }}>
+																		Inactive
+																	</option>
 																</select>
 															</div>
 														</div>

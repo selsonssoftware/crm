@@ -217,11 +217,16 @@
 														<div class="col-md-12">
 															<div class="mb-3">
 																<label class="form-label">Status</label>
-																<select class="select" name="status" >
-																	<option value="Active" {{ $item->status == 'Active' ?
-																		'selected' : '' }}>Active</option>
-																	<option value="In Active" {{ $item->status == 'In Active' ?
-																		'selected' : '' }}>In Active</option>
+																<select name="status" class="select" required>
+																	<option value="">Select</option>
+
+																	<option value="1" {{ old('status', $item->status) == 1 ? 'selected' : '' }}>
+																		Active
+																	</option>
+
+																	<option value="0" {{ old('status', $item->status) == 0 ? 'selected' : '' }}>
+																		Inactive
+																	</option>
 																</select>
 															</div>
 														</div>
@@ -308,10 +313,10 @@
 								<div class="col-md-12">
 									<div class="mb-3">
 										<label class="form-label">Status</label>
-										<select class="select" name="status">
-											<option>Select</option>
-											<option>Active</option>
-											<option>Inactive</option>
+										<select name="status" class="select" required>
+											<option value="">Select</option>
+											<option value="1">Active</option>
+											<option value="0">Inactive</option>
 										</select>
 									</div>
 								</div>
