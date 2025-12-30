@@ -17,12 +17,7 @@ class InvoiceController extends Controller
        )->get();
         return view ('Invoice.invoice',compact('invoices'));
     }
-    public function delete_invoice(Request $request)
-    {
-        invoices::where('invoice_id', $request->invoice_id)->delete();
-
-        return redirect()->back()->with('success', 'Invoice Deleted Successfully');
-    }
+    
 
     public function add_invoice(Request $request){
         $clients=contacts::all();
@@ -141,6 +136,11 @@ class InvoiceController extends Controller
     $data=$download;
     return view('Invoice.Download_Invoice', compact('download', 'details','items','data'));
 }
+public function delete_invoice(Request $request)
+    {
+        invoices::where('invoice_id', $request->invoice_id)->delete();
 
+        return redirect()->back()->with('success', 'Invoice Deleted Successfully');
+    }
 
 }

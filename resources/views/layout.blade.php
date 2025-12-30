@@ -354,8 +354,8 @@
 													</a>
 													<ul>
 														<li><a href="/employee_list">Employee Lists</a></li>
-														<li><a href="employees-grid.html">Employee Grid</a></li>
-														<li><a href="employee-details.html">Employee Details</a></li>
+														<!-- <li><a href="employees-grid.html">Employee Grid</a></li>
+														<li><a href="employee-details.html">Employee Details</a></li> -->
 														<li><a href="/departments">Departments</a></li>
 														<li><a href="/designations">Designations</a></li>
 														<li><a href="policy.html">Policies</a></li>
@@ -1494,8 +1494,8 @@
 									</a>
 									<ul>
 										<li><a href="/employee_list">Employee Lists</a></li>
-										<li><a href="employees-grid.html">Employee Grid</a></li>
-										<li><a href="employee-details.html">Employee Details</a></li>
+										<!-- <li><a href="employees-grid.html">Employee Grid</a></li>
+										<li><a href="employee-details.html">Employee Details</a></li> -->
 										<li><a href="/departments">Departments</a></li>
 										<li><a href="/designations">Designations</a></li>
 									</ul>
@@ -1742,8 +1742,8 @@
 									</a>
 									<ul>
 										<li><a href="/employee_list">Employee Lists</a></li>
-										<li><a href="tasks.html">Employee Grid</a></li>
-										<li><a href="task-board.html">Employee Details</a></li>
+										<!-- <li><a href="tasks.html">Employee Grid</a></li>
+										<li><a href="task-board.html">Employee Details</a></li> -->
 										<li><a href="/departments">Departments</a></li>
 										<li><a href="/designations">Designations</a></li>
 									</ul>
@@ -1765,8 +1765,8 @@
 									</a>
 									<ul>
 										<li><a href="/employee_list">Employee Lists</a></li>
-										<li><a href="employees-grid.html">Employee Grid</a></li>
-										<li><a href="employee-details.html">Employee Details</a></li>
+										<!-- <li><a href="employees-grid.html">Employee Grid</a></li>
+										<li><a href="employee-details.html">Employee Details</a></li> -->
 										<li><a href="/departments">Departments</a></li>
 										<li><a href="/designations">Designations</a></li>
 										<li><a href="policy.html">Policies</a></li>
@@ -2549,8 +2549,8 @@
 										</a>
 										<ul>
 											<li><a href="/employee_list">Employee Lists</a></li>
-											<li><a href="employees-grid.html">Employee Grid</a></li>
-											<li><a href="employee-details.html">Employee Details</a></li>
+											<!-- <li><a href="employees-grid.html">Employee Grid</a></li>
+											<li><a href="employee-details.html">Employee Details</a></li> -->
 											<li><a href="/departments">Departments</a></li>
 											<li><a href="/designations">Designations</a></li>
 											<li><a href="policy.html">Policies</a></li>
@@ -3316,8 +3316,8 @@
 											</a>
 											<ul>
 												<li><a href="/employee_list">Employee Lists</a></li>
-												<li><a href="employees-grid.html">Employee Grid</a></li>
-												<li><a href="employee-details.html">Employee Details</a></li>
+												<!-- <li><a href="employees-grid.html">Employee Grid</a></li>
+												<li><a href="employee-details.html">Employee Details</a></li> -->
 												<li><a href="/departments">Departments</a></li>
 												<li><a href="/designations">Designations</a></li>
 												<li><a href="policy.html">Policies</a></li>
