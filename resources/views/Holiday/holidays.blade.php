@@ -110,16 +110,19 @@
                                                             <div class="col-md-12">
                                                                 <div class="mb-3">
                                                                     <label class="form-label">Date</label>
-                                                                    <div class="input-icon-end position-relative">
-                                                                        <input type="date" class="form-control" name="holiday_date">
-                                                
-                                                                    </div>
+                                                                    <input type="date"
+                                                                        class="form-control"
+                                                                        name="holiday_date"
+                                                                        value="{{ old('holiday_date', substr($holiday->holiday_date, 0, 10)) }}"
+                                                                        required>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-12">
                                                                 <div class="mb-3">
                                                                     <label class="form-label">Description</label>
-                                                                    <textarea class="form-control" rows="3" value="{{$holiday->description}}" name="description"></textarea>
+                                                                    <textarea class="form-control"
+                                                                            rows="3"
+                                                                            name="description">{{ old('description', $holiday->description) }}</textarea>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-12">
