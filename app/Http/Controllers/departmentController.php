@@ -76,7 +76,7 @@ class departmentController extends Controller
         $request->validate([
             'title' => 'required',
             'department_id' => 'required|exists:departments,department_id',
-            'status' => 'required'
+            'status' => 'required|in:0,1',
         ]);
 
         Designation::create([
@@ -94,7 +94,7 @@ class departmentController extends Controller
             'designation_id' => 'required|exists:designations,designation_id',
             'title' => 'required',
             'department_id' => 'required|exists:departments,department_id',
-            'status' => 'required',
+            'status' => 'required|in:0,1',
         ]);
 
         Designation::where('designation_id', $request->designation_id)
