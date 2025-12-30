@@ -12,7 +12,10 @@
 	<title>Selsons Admin Template</title>
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/x-icon" href="uploads/wbsl_logo.png">
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="uploads/wbsl_logo.png"> -->
+	@if($generalSettings && $generalSettings->logo)
+    <link rel="shortcut icon" href="{{ asset('uploads/generalsettings/'.$generalSettings->logo) }}">
+@endif
 
 	<!-- Apple Touch Icon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
@@ -74,8 +77,11 @@
 			<div class="main-header">
 
 				<div class="header-left">
-					<a href="index.html" class="logo">
-						<img src="uploads/wbsl_logo.png" alt="Logo" style="width:120px;height:60px">
+					<a href="/" class="logo">
+						<!-- <img src="uploads/wbsl_logo.png" alt="Logo" style="width:120px;height:60px"> -->
+						 @if($generalSettings && $generalSettings->logo)
+    <img src="{{ asset('uploads/generalsettings/'.$generalSettings->logo) }}" alt="Logo" class="img-fluid" style="width:102px;height:33px">
+@endif
 					</a>
 					<a href="index.html" class="dark-logo">
 						<img src="uploads/wbsl_logo.png" alt="Logo">
@@ -354,8 +360,8 @@
 													</a>
 													<ul>
 														<li><a href="/employee_list">Employee Lists</a></li>
-														<li><a href="employees-grid.html">Employee Grid</a></li>
-														<li><a href="employee-details.html">Employee Details</a></li>
+														<!-- <li><a href="employees-grid.html">Employee Grid</a></li>
+														<li><a href="employee-details.html">Employee Details</a></li> -->
 														<li><a href="/departments">Departments</a></li>
 														<li><a href="/designations">Designations</a></li>
 														<li><a href="policy.html">Policies</a></li>
@@ -1494,8 +1500,8 @@
 									</a>
 									<ul>
 										<li><a href="/employee_list">Employee Lists</a></li>
-										<li><a href="employees-grid.html">Employee Grid</a></li>
-										<li><a href="employee-details.html">Employee Details</a></li>
+										<!-- <li><a href="employees-grid.html">Employee Grid</a></li>
+										<li><a href="employee-details.html">Employee Details</a></li> -->
 										<li><a href="/departments">Departments</a></li>
 										<li><a href="/designations">Designations</a></li>
 									</ul>
@@ -1742,8 +1748,8 @@
 									</a>
 									<ul>
 										<li><a href="/employee_list">Employee Lists</a></li>
-										<li><a href="tasks.html">Employee Grid</a></li>
-										<li><a href="task-board.html">Employee Details</a></li>
+										<!-- <li><a href="tasks.html">Employee Grid</a></li>
+										<li><a href="task-board.html">Employee Details</a></li> -->
 										<li><a href="/departments">Departments</a></li>
 										<li><a href="/designations">Designations</a></li>
 									</ul>
@@ -1765,8 +1771,8 @@
 									</a>
 									<ul>
 										<li><a href="/employee_list">Employee Lists</a></li>
-										<li><a href="employees-grid.html">Employee Grid</a></li>
-										<li><a href="employee-details.html">Employee Details</a></li>
+										<!-- <li><a href="employees-grid.html">Employee Grid</a></li>
+										<li><a href="employee-details.html">Employee Details</a></li> -->
 										<li><a href="/departments">Departments</a></li>
 										<li><a href="/designations">Designations</a></li>
 										<li><a href="policy.html">Policies</a></li>
@@ -2549,8 +2555,8 @@
 										</a>
 										<ul>
 											<li><a href="/employee_list">Employee Lists</a></li>
-											<li><a href="employees-grid.html">Employee Grid</a></li>
-											<li><a href="employee-details.html">Employee Details</a></li>
+											<!-- <li><a href="employees-grid.html">Employee Grid</a></li>
+											<li><a href="employee-details.html">Employee Details</a></li> -->
 											<li><a href="/departments">Departments</a></li>
 											<li><a href="/designations">Designations</a></li>
 											<li><a href="policy.html">Policies</a></li>
@@ -3316,8 +3322,8 @@
 											</a>
 											<ul>
 												<li><a href="/employee_list">Employee Lists</a></li>
-												<li><a href="employees-grid.html">Employee Grid</a></li>
-												<li><a href="employee-details.html">Employee Details</a></li>
+												<!-- <li><a href="employees-grid.html">Employee Grid</a></li>
+												<li><a href="employee-details.html">Employee Details</a></li> -->
 												<li><a href="/departments">Departments</a></li>
 												<li><a href="/designations">Designations</a></li>
 												<li><a href="policy.html">Policies</a></li>
