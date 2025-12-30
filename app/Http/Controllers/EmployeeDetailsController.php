@@ -11,8 +11,9 @@ class EmployeeDetailsController extends Controller
 {
      //showing
     public function show_employee(Request $request){
-          
-   
+    $total_employees= employees::count();  
+    $active_users=employees::where('status','active')->count();
+    $inactive_users=employees::where('status','inactive')->count();
     $variable=$query = employees::get();
    
     if ($request->has('designation_id') && $request->designation_id != '') {
@@ -26,7 +27,7 @@ class EmployeeDetailsController extends Controller
             'designations.*'
         )
         ->get();
-    return view('Employee.Employee_Details',compact('variable','department','designation'));
+    return view('Employee.Employee_Details',compact('variable','department','designation','total_employees','active_users','inactive_users'));
     }
  
 

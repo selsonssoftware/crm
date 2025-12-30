@@ -13,9 +13,7 @@
 
 	<!-- Favicon -->
 	<!-- <link rel="shortcut icon" type="image/x-icon" href="uploads/wbsl_logo.png"> -->
-	@if($generalSettings && $generalSettings->logo)
-    <link rel="shortcut icon" href="{{ asset('uploads/generalsettings/'.$generalSettings->logo) }}">
-@endif
+<link rel="shortcut icon" href="{{ asset('uploads/generalsettings/'.$generalSettings->logo) }}">
 
 	<!-- Apple Touch Icon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
@@ -79,12 +77,11 @@
 				<div class="header-left">
 					<a href="/" class="logo">
 						<!-- <img src="uploads/wbsl_logo.png" alt="Logo" style="width:120px;height:60px"> -->
-						 @if($generalSettings && $generalSettings->logo)
-    <img src="{{ asset('uploads/generalsettings/'.$generalSettings->logo) }}" alt="Logo" class="img-fluid" style="width:102px;height:33px">
-@endif
+						 <img src="{{ asset('uploads/generalsettings/'.$generalSettings->logo) }}" alt="{{ $generalSettings->company_name }}" style="width:102px;height:33px">
 					</a>
 					<a href="index.html" class="dark-logo">
-						<img src="uploads/wbsl_logo.png" alt="Logo">
+						<!-- <img src="uploads/wbsl_logo.png" alt="Logo"> -->
+						  <img src="{{ asset('uploads/generalsettings/'.$generalSettings->logo) }}" alt="{{ $generalSettings->company_name }}">
 					</a>
 				</div>
 
@@ -110,7 +107,7 @@
 								</span>
 								<input type="text" class="form-control" placeholder="Search in Selsons">
 								<span class="input-group-text">
-									<kbd>CTRL + / </kbd>
+									<kbd>{{ $generalSettings->company_name }}</kbd>
 								</span>
 							</div>
 							<!-- /Search -->

@@ -71,7 +71,7 @@
 							</div>
 							<div class="ms-2 overflow-hidden">
 								<p class="fs-12 fw-medium mb-1 text-truncate">Total Employee</p>
-								<h4>1007</h4>
+								<h4>{{$total_employees}}</h4>
 							</div>
 						</div>
 						<div>
@@ -96,7 +96,7 @@
 							</div>
 							<div class="ms-2 overflow-hidden">
 								<p class="fs-12 fw-medium mb-1 text-truncate">Active</p>
-								<h4>1007</h4>
+								<h4>{{$active_users}}</h4>
 							</div>
 						</div>
 						<div>
@@ -121,7 +121,7 @@
 							</div>
 							<div class="ms-2 overflow-hidden">
 								<p class="fs-12 fw-medium mb-1 text-truncate">InActive</p>
-								<h4>1007</h4>
+								<h4>{{$inactive_users}}</h4>
 							</div>
 						</div>
 						<div>
@@ -136,7 +136,7 @@
 			<!-- /Inactive Companies -->
 
 			<!-- No of Plans  -->
-			<div class="col-lg-3 col-md-6 d-flex">
+			<!-- <div class="col-lg-3 col-md-6 d-flex">
 				<div class="card flex-fill">
 					<div class="card-body d-flex align-items-center justify-content-between">
 						<div class="d-flex align-items-center overflow-hidden">
@@ -156,7 +156,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<!-- /No of Plans -->
 
 		</div>

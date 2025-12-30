@@ -19,10 +19,14 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // Get the first general settings record
-        $generalSettings = general_settings::first();
+        // Get first record and share with all views
+    $generalSettings = general_settings::first();
 
-        // Share it with all views
-        view()->share('generalSettings', $generalSettings);
+    // If no record exists, create an empty object to avoid errors
+    if (!$generalSettings) {
+        $generalSettings = new general_settings();
+    }
+
+    view()->share('generalSettings', $generalSettings);
     }
 }
