@@ -71,7 +71,7 @@ Route::get('/delete_task',[ProjectController::class,'delete_task']);
 
 
 //departments
-Route::get('/departments',[departmentController::class,'testing']);
+Route::get('/departments',[departmentController::class,'departments']);
 Route::post('/departmentsstore',[departmentController::class,'departmentsstore']);
 Route::post('/departmentssave', [departmentController::class,'departmentssave']);
 Route::get('/delete_departments',[departmentController::class,'delete_departments']);

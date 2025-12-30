@@ -518,13 +518,8 @@
 													</a>
 													<ul>
 														<li class="submenu">
-															<a href="javascript:void(0);">General Settings<span
-																	class="menu-arrow"></span></a>
 															<ul>
-																<li><a href="profile-settings.html">Profile</a></li>
-																<li><a href="security-settings.html">Security</a></li>
-																<li><a href="notification-settings.html">Notifications</a></li>
-																<li><a href="connected-apps.html">Connected Apps</a></li>
+																<li><a href="/generalsettings">General Settings</a></li>
 															</ul>
 														</li>
 														<li class="submenu">
@@ -1589,19 +1584,11 @@
 									</ul>
 								</li>
 								<li class="submenu">
-									<a href="javascript:void(0);">
-										<i class="ti ti-settings"></i><span>Settings</span>
+									<a href="javascript:void(0);"><span>Settings</span>
 										<span class="menu-arrow"></span>
 									</a>
 									<ul>
-										<li class="submenu submenu-two">
-											<a href="javascript:void(0);">General Settings<span
-													class="menu-arrow inside-submenu"></span></a>
-											<ul>
-												<li><a href="profile-settings.html">Profile</a></li>
-												<li><a href="security-settings.html">Security</a></li>
-											</ul>
-										</li>
+										<li><a href="/generalsettings">General Settings</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -1835,15 +1822,7 @@
 										<span class="menu-arrow"></span>
 									</a>
 									<ul>
-										<li class="submenu">
-											<a href="javascript:void(0);">General Settings<span
-													class="menu-arrow"></span></a>
-											<ul>
-												<li><a href="profile-settings.html">Profile</a></li>
-												<li><a href="security-settings.html">Security</a></li>
-												<li><a href="notification-settings.html">Change Password</a></li>
-											</ul>
-										</li>
+										<li><a href="/generalsettings">General Settings</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -3751,7 +3730,7 @@
                                     <div class="row justify-content-between align-items-center border-bottom mb-3">
                                         <div class="col-md-6">
                                             <div class="mb-2">
-                                               <img src="{{ asset('uploads/generalsettings/'.$details->logo) }}" class="img-fluid" alt="logo">
+                                               <img src="{{ asset('uploads/generalsettings/'.$details->logo) }}" class="img-fluid" style="width:100px" alt="logo">
                                             </div>
                                             <p>{{$details->address}},{{$details->city}},{{$details->state}} {{$details->pincode}}.</p>
                                         </div>
@@ -3867,7 +3846,7 @@
                                     <div class="row justify-content-end align-items-end text-end border-bottom mb-3">
                                         <div class="col-md-3">
                                             <div class="text-end">
-                                                <img src="{{ asset('uploads/generalsettings/'.$details->logo) }}" class="img-fluid" alt="logo">
+                                                <img src="{{ asset('uploads/generalsettings/'.$details->logo) }}" class="img-fluid mb-2 me-2" style="width:90px;" alt="logo">
                                             </div>
                                             <div class="text-end mb-3">
                                                 <h6 class="fs-14 fw-medium pe-3">Ted M. SSS</h6>
@@ -3877,7 +3856,7 @@
                                     </div>
                                     <div class="text-center">
                                         <div class="mb-3">
-                                            <img src="{{ asset('uploads/generalsettings/'.$details->logo) }}" class="img-fluid" alt="logo">
+                                            <img src="{{ asset('uploads/generalsettings/'.$details->logo) }}" class="img-fluid" style="width:130px;" alt="logo">
                                         </div>
                                         <p class="text-dark mb-1">Payment Made Via bank transfer / Cheque in the name of Thomas Lawler</p>
                                         <div class="d-flex justify-content-center align-items-center">

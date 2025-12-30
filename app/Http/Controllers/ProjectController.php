@@ -12,7 +12,8 @@ class ProjectController extends Controller
      public function show_project(Request $request){
       $variable=projects::join('contacts','projects.client_id','=','contacts.contact_id')
         ->select(
-            'contacts.name as contact_name',
+            'contacts.first_name as first_name',
+            'contacts.last_name as last_name',
             'projects.*'
         )->get();
         $contacts=contacts::all();

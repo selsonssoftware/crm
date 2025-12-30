@@ -179,7 +179,7 @@
 														<div class="col-md-12">
 															<div class="mb-3">
 																<label class="form-label">Status</label>
-																<select class="select" name="status" value="{{$data->status}}">
+																<select class="select" name="status" >
 																	<option>Select</option>
 																	<option value="Active" {{ $data->status == 'Active' ?
 																		'selected' : '' }}>Active</option>
