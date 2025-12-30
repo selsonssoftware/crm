@@ -8,75 +8,77 @@ use App\Models\Designation;
 use Illuminate\Support\Facades\DB;
 class departmentController extends Controller
 {
-  
-  public function departments(Request $request){
+
+    public function departments(Request $request)
+    {
         $variable = Department::latest()->get();
-        return view ('Employee.departments', compact('variable'));
+        return view('Employee.departments', compact('variable'));
     }
 
-    public function departmentsstore(Request $request) {
-         $variable=new Department();
-         $variable->name=$request->Input('name');
-         $variable->status = $request->Input('status');
-         $variable->save();
-         return redirect()->back()->with('success', 'Department inserted successfully');
+    public function departmentsstore(Request $request)
+    {
+        $variable = new Department();
+        $variable->name = $request->Input('name');
+        $variable->status = $request->Input('status');
+        $variable->save();
+        return redirect()->back()->with('success', 'Department inserted successfully');
     }
 
     public function departmentssave(Request $request)
-{
+    {
 
-    $request->validate([
-        'department_id' => 'required|exists:departments,department_id',
-        'name' => 'required|string|max:255',
-        'status' => 'required|string',
-    ]);
-
-    $updated = Department::where('department_id', $request->department_id)
-        ->update([
-            'name' => $request->name,
-            'status' => $request->status,
+        $request->validate([
+            'department_id' => 'required|exists:departments,department_id',
+            'name' => 'required|string|max:255',
+            'status' => 'required|string',
         ]);
 
-     return redirect()->back()->with('success', 'Updated Department data successfully');
-  }
+        $updated = Department::where('department_id', $request->department_id)
+            ->update([
+                'name' => $request->name,
+                'status' => $request->status,
+            ]);
+
+        return redirect()->back()->with('success', 'Updated Department data successfully');
+    }
 
     public function delete_departments(Request $request)
-        {
-            Department::where('department_id', $request->department_id)->delete();
+    {
+        Department::where('department_id', $request->department_id)->delete();
 
-            return redirect()->back()->with('delete', 'Department Successfully');
-        }
+        return redirect()->back()->with('delete', 'Department Successfully');
+    }
 
 
 
     //designations
-  public function testing(Request $request)
-{
-    // Fetch designations with department names
-    $designations = DB::table('designations')
-        ->leftJoin('departments', 'designations.department_id', '=', 'departments.department_id')
-        ->select(
-            'designations.designation_id',
-            'designations.title',
-            'designations.status',
-            'designations.department_id', // for edit modal pre-selection
-            'departments.name as department_name' // department name from departments table
-        )
-        ->latest('designations.created_at')
-        ->get();
+    public function testing(Request $request)
+    {
+        // Fetch designations with department names
+        $designations = DB::table('designations')
+            ->leftJoin('departments', 'designations.department_id', '=', 'departments.department_id')
+            ->select(
+                'designations.designation_id',
+                'designations.title',
+                'designations.status',
+                'designations.department_id', // for edit modal pre-selection
+                'departments.name as department_name' // department name from departments table
+            )
+            ->latest('designations.created_at')
+            ->get();
 
-    // Fetch all departments for Add/Edit dropdowns
-    $departments = DB::table('departments')->get();
+        // Fetch all departments for Add/Edit dropdowns
+        $departments = DB::table('departments')->get();
 
-    return view('Employee.designations', compact('designations', 'departments'));
-}
+        return view('Employee.designations', compact('designations', 'departments'));
+    }
 
     public function designationsstore(Request $request)
     {
         $request->validate([
             'title' => 'required',
             'department_id' => 'required|exists:departments,department_id',
-            'status' => 'required|in:0,1',
+            'status' => 'required',
         ]);
 
         Designation::create([
@@ -94,7 +96,7 @@ class departmentController extends Controller
             'designation_id' => 'required|exists:designations,designation_id',
             'title' => 'required',
             'department_id' => 'required|exists:departments,department_id',
-            'status' => 'required|in:0,1',
+            'status' => 'required',
         ]);
 
         Designation::where('designation_id', $request->designation_id)
